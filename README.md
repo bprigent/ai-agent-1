@@ -1,6 +1,3 @@
-# ai-agent-1
-testing building ai agents with HF
+# Repository Dedicated to AI Agent building
 
-lets make some change
-
-
+I am joining the HF course to build AI agents. This will be where I will store my code.
