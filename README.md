@@ -8,6 +8,7 @@ Here is the course [link](https://huggingface.co/learn/agents-course/unit0/intro
 ## Tasks
 - Added IA rules into cursor
 - Added docs to cursor
+- downloaded smolagents (python 10 is required)
 
 
 -------
