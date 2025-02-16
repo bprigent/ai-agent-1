@@ -1,5 +1,5 @@
 from smolagents import CodeAgent, HfApiModel
-from tools import CalculatorTool, DateTimeTool
+from tools import CalculatorTool, DateTimeTool, ExpenseRangeTool
 
 
 
@@ -11,10 +11,11 @@ def main():
     # Create calculator tool instance
     calculator_tool = CalculatorTool()
     datetime_tool = DateTimeTool()
+    expense_range_tool = ExpenseRangeTool()
     
     # Initialize the agent with the calculator tool
     agent = CodeAgent(
-        tools=[calculator_tool, datetime_tool],
+        tools=[calculator_tool, datetime_tool, expense_range_tool],
         model=model,
         add_base_tools=True,  # Add default toolbox
         verbosity_level=2  # Show detailed output of agent's thinking

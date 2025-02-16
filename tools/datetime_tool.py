@@ -2,12 +2,12 @@ from smolagents import Tool
 from datetime import datetime
 
 class DateTimeTool(Tool):
-    name = "datetime"
-    description = "Get current date and time information"
+    name = "get_current_time"
+    description = "Gets the current date and time in a specified format"
     inputs = {
         "format": {
             "type": "string",
-            "description": "Format string for datetime (optional)",
+            "description": "Format string for datetime (e.g., '%H:%M:%S' for time only, '%Y-%m-%d %H:%M:%S' for date and time)",
             "nullable": True,
             "default": "%Y-%m-%d %H:%M:%S"
         }
@@ -16,6 +16,7 @@ class DateTimeTool(Tool):
 
     def forward(self, format: str = "%Y-%m-%d %H:%M:%S") -> str:
         try:
-            return datetime.now().strftime(format)
+            current_time = datetime.now().strftime(format)
+            return current_time
         except Exception as e:
             raise ValueError(f"Error formatting datetime: {str(e)}") 
