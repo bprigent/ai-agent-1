@@ -1,0 +1,527 @@
+Date,Expense Name,Amount,Account Number
+2024-01-01,Salary,3000,Checking
+2024-01-01,Rent,-1200,Checking
+2024-01-01,Shopping,-182,Savings
+2024-01-03,Gym Membership,-74,Savings
+2024-01-04,Phone Bill,-68,Checking
+2024-01-04,Coffee,-10,Checking
+2024-01-06,Phone Bill,-68,Checking
+2024-01-07,Coffee,-10,Savings
+2024-01-08,Miscellaneous,-47,Checking
+2024-01-08,Groceries,-397,Checking
+2024-01-08,Shopping,-182,Checking
+2024-01-11,Cinema,-12,Checking
+2024-01-11,Cinema,-12,Savings
+2024-01-13,Gas,-84,Checking
+2024-01-13,Gas,-84,Checking
+2024-01-14,Streaming Services,-12,Savings
+2024-01-15,Shopping,-182,Savings
+2024-01-15,Phone Bill,-68,Checking
+2024-01-16,Groceries,-397,Checking
+2024-01-16,Gym Membership,-74,Savings
+2024-01-17,Coffee,-10,Savings
+2024-01-19,Gym Membership,-74,Savings
+2024-01-19,Cinema,-12,Checking
+2024-01-21,Shopping,-182,Savings
+2024-01-21,Cinema,-12,Savings
+2024-01-22,Miscellaneous,-47,Savings
+2024-01-22,Cinema,-12,Savings
+2024-01-22,Phone Bill,-68,Checking
+2024-01-22,Dinner,-50,Savings
+2024-01-23,Insurance,-128,Checking
+2024-01-23,Cinema,-12,Savings
+2024-01-23,Insurance,-128,Savings
+2024-01-23,Coffee,-10,Savings
+2024-01-23,Miscellaneous,-47,Savings
+2024-01-23,Coffee,-10,Savings
+2024-01-23,Coffee,-10,Savings
+2024-01-26,Utilities,-131,Savings
+2024-01-26,Car Maintenance,-352,Checking
+2024-01-27,Shopping,-182,Checking
+2024-01-28,Gas,-84,Checking
+2024-01-29,Car Maintenance,-352,Savings
+2024-01-29,Cinema,-12,Checking
+2024-01-30,Shopping,-182,Savings
+2024-01-31,Rent,-1200,Checking
+2024-01-31,Salary,3000,Checking
+2024-01-31,Cinema,-12,Savings
+2024-01-31,Utilities,-131,Checking
+2024-02-01,Shopping,-182,Savings
+2024-02-02,Groceries,-397,Checking
+2024-02-02,Car Maintenance,-352,Savings
+2024-02-04,Streaming Services,-12,Checking
+2024-02-06,Shopping,-182,Savings
+2024-02-07,Miscellaneous,-47,Checking
+2024-02-07,Streaming Services,-12,Savings
+2024-02-08,Gym Membership,-74,Checking
+2024-02-10,Car Maintenance,-352,Checking
+2024-02-10,Coffee,-10,Checking
+2024-02-10,Groceries,-397,Checking
+2024-02-10,Gas,-84,Checking
+2024-02-12,Gas,-84,Checking
+2024-02-12,Coffee,-10,Checking
+2024-02-13,Coffee,-10,Checking
+2024-02-13,Streaming Services,-12,Checking
+2024-02-14,Gas,-84,Savings
+2024-02-14,Miscellaneous,-47,Checking
+2024-02-16,Utilities,-131,Savings
+2024-02-16,Dinner,-50,Savings
+2024-02-16,Dinner,-50,Checking
+2024-02-17,Gym Membership,-74,Checking
+2024-02-17,Utilities,-131,Checking
+2024-02-17,Cinema,-12,Checking
+2024-02-18,Cinema,-12,Savings
+2024-02-19,Phone Bill,-68,Savings
+2024-02-19,Coffee,-10,Checking
+2024-02-19,Utilities,-131,Savings
+2024-02-22,Gym Membership,-74,Checking
+2024-02-22,Miscellaneous,-47,Savings
+2024-02-23,Shopping,-182,Savings
+2024-02-23,Coffee,-10,Checking
+2024-02-26,Shopping,-182,Savings
+2024-02-26,Utilities,-131,Checking
+2024-02-27,Gym Membership,-74,Checking
+2024-02-27,Coffee,-10,Savings
+2024-02-29,Cinema,-12,Checking
+2024-03-01,Salary,3000,Checking
+2024-03-01,Rent,-1200,Checking
+2024-03-03,Streaming Services,-12,Savings
+2024-03-04,Groceries,-397,Savings
+2024-03-04,Gym Membership,-74,Checking
+2024-03-05,Gym Membership,-74,Checking
+2024-03-05,Miscellaneous,-47,Checking
+2024-03-06,Cinema,-12,Checking
+2024-03-06,Phone Bill,-68,Checking
+2024-03-06,Insurance,-128,Checking
+2024-03-08,Gym Membership,-74,Savings
+2024-03-09,Streaming Services,-12,Checking
+2024-03-09,Gas,-84,Checking
+2024-03-10,Streaming Services,-12,Checking
+2024-03-11,Gym Membership,-74,Savings
+2024-03-11,Miscellaneous,-47,Checking
+2024-03-11,Groceries,-397,Checking
+2024-03-12,Cinema,-12,Checking
+2024-03-12,Streaming Services,-12,Savings
+2024-03-13,Gym Membership,-74,Checking
+2024-03-15,Phone Bill,-68,Checking
+2024-03-16,Coffee,-10,Checking
+2024-03-17,Miscellaneous,-47,Checking
+2024-03-17,Coffee,-10,Checking
+2024-03-17,Gas,-84,Checking
+2024-03-18,Phone Bill,-68,Savings
+2024-03-19,Miscellaneous,-47,Savings
+2024-03-19,Gas,-84,Savings
+2024-03-20,Utilities,-131,Checking
+2024-03-22,Utilities,-131,Savings
+2024-03-22,Miscellaneous,-47,Checking
+2024-03-22,Gym Membership,-74,Savings
+2024-03-23,Shopping,-182,Savings
+2024-03-23,Car Maintenance,-352,Checking
+2024-03-24,Streaming Services,-12,Savings
+2024-03-24,Dinner,-50,Checking
+2024-03-24,Coffee,-10,Checking
+2024-03-24,Coffee,-10,Checking
+2024-03-24,Car Maintenance,-352,Savings
+2024-03-25,Dinner,-50,Checking
+2024-03-25,Miscellaneous,-47,Checking
+2024-03-26,Insurance,-128,Savings
+2024-03-26,Insurance,-128,Checking
+2024-03-30,Car Maintenance,-352,Checking
+2024-03-30,Miscellaneous,-47,Checking
+2024-03-30,Phone Bill,-68,Checking
+2024-03-31,Rent,-1200,Checking
+2024-03-31,Salary,3000,Checking
+2024-03-31,Utilities,-131,Checking
+2024-04-01,Phone Bill,-68,Savings
+2024-04-01,Phone Bill,-68,Savings
+2024-04-03,Coffee,-10,Checking
+2024-04-04,Car Maintenance,-352,Checking
+2024-04-05,Groceries,-397,Savings
+2024-04-05,Shopping,-182,Checking
+2024-04-05,Insurance,-128,Savings
+2024-04-05,Insurance,-128,Checking
+2024-04-06,Insurance,-128,Savings
+2024-04-06,Groceries,-397,Savings
+2024-04-06,Cinema,-12,Savings
+2024-04-07,Shopping,-182,Savings
+2024-04-08,Car Maintenance,-352,Savings
+2024-04-08,Gym Membership,-74,Checking
+2024-04-09,Car Maintenance,-352,Savings
+2024-04-10,Dinner,-50,Checking
+2024-04-11,Car Maintenance,-352,Savings
+2024-04-12,Miscellaneous,-47,Checking
+2024-04-12,Insurance,-128,Savings
+2024-04-16,Phone Bill,-68,Savings
+2024-04-16,Cinema,-12,Checking
+2024-04-16,Gas,-84,Savings
+2024-04-17,Miscellaneous,-47,Checking
+2024-04-17,Shopping,-182,Checking
+2024-04-21,Gym Membership,-74,Checking
+2024-04-22,Gas,-84,Checking
+2024-04-22,Coffee,-10,Savings
+2024-04-23,Gym Membership,-74,Checking
+2024-04-24,Gas,-84,Checking
+2024-04-25,Streaming Services,-12,Checking
+2024-04-25,Gas,-84,Savings
+2024-04-29,Coffee,-10,Checking
+2024-04-30,Miscellaneous,-47,Savings
+2024-04-30,Salary,3000,Checking
+2024-04-30,Rent,-1200,Checking
+2024-05-01,Streaming Services,-12,Savings
+2024-05-03,Phone Bill,-68,Savings
+2024-05-04,Utilities,-131,Checking
+2024-05-05,Gas,-84,Savings
+2024-05-05,Shopping,-182,Checking
+2024-05-07,Miscellaneous,-47,Checking
+2024-05-08,Dinner,-50,Savings
+2024-05-09,Phone Bill,-68,Checking
+2024-05-09,Shopping,-182,Checking
+2024-05-09,Groceries,-397,Checking
+2024-05-10,Streaming Services,-12,Savings
+2024-05-10,Miscellaneous,-47,Savings
+2024-05-11,Groceries,-397,Savings
+2024-05-12,Gas,-84,Savings
+2024-05-13,Coffee,-10,Savings
+2024-05-13,Phone Bill,-68,Checking
+2024-05-14,Shopping,-182,Savings
+2024-05-14,Cinema,-12,Savings
+2024-05-15,Streaming Services,-12,Checking
+2024-05-17,Insurance,-128,Checking
+2024-05-18,Dinner,-50,Checking
+2024-05-19,Streaming Services,-12,Savings
+2024-05-19,Miscellaneous,-47,Savings
+2024-05-19,Phone Bill,-68,Savings
+2024-05-20,Cinema,-12,Checking
+2024-05-20,Cinema,-12,Checking
+2024-05-20,Car Maintenance,-352,Checking
+2024-05-21,Shopping,-182,Savings
+2024-05-22,Dinner,-50,Savings
+2024-05-22,Miscellaneous,-47,Checking
+2024-05-22,Gym Membership,-74,Savings
+2024-05-22,Streaming Services,-12,Checking
+2024-05-22,Gas,-84,Savings
+2024-05-23,Dinner,-50,Checking
+2024-05-23,Gas,-84,Savings
+2024-05-24,Miscellaneous,-47,Savings
+2024-05-25,Cinema,-12,Savings
+2024-05-25,Shopping,-182,Savings
+2024-05-26,Cinema,-12,Savings
+2024-05-28,Coffee,-10,Checking
+2024-05-28,Car Maintenance,-352,Savings
+2024-05-30,Cinema,-12,Savings
+2024-05-30,Insurance,-128,Checking
+2024-05-30,Salary,3000,Checking
+2024-05-30,Rent,-1200,Checking
+2024-05-30,Miscellaneous,-47,Checking
+2024-05-31,Utilities,-131,Savings
+2024-06-01,Utilities,-131,Savings
+2024-06-05,Phone Bill,-68,Savings
+2024-06-06,Car Maintenance,-352,Checking
+2024-06-07,Gas,-84,Checking
+2024-06-07,Miscellaneous,-47,Savings
+2024-06-08,Utilities,-131,Checking
+2024-06-09,Coffee,-10,Savings
+2024-06-09,Insurance,-128,Checking
+2024-06-10,Groceries,-397,Savings
+2024-06-10,Gas,-84,Savings
+2024-06-10,Dinner,-50,Checking
+2024-06-11,Groceries,-397,Checking
+2024-06-12,Coffee,-10,Checking
+2024-06-13,Cinema,-12,Checking
+2024-06-14,Shopping,-182,Checking
+2024-06-16,Dinner,-50,Checking
+2024-06-17,Insurance,-128,Checking
+2024-06-18,Groceries,-397,Savings
+2024-06-18,Groceries,-397,Checking
+2024-06-20,Utilities,-131,Savings
+2024-06-20,Cinema,-12,Checking
+2024-06-20,Insurance,-128,Checking
+2024-06-20,Gas,-84,Savings
+2024-06-20,Coffee,-10,Checking
+2024-06-21,Gas,-84,Checking
+2024-06-21,Gym Membership,-74,Savings
+2024-06-21,Insurance,-128,Savings
+2024-06-22,Coffee,-10,Checking
+2024-06-23,Phone Bill,-68,Savings
+2024-06-25,Phone Bill,-68,Checking
+2024-06-25,Gas,-84,Savings
+2024-06-26,Coffee,-10,Savings
+2024-06-26,Car Maintenance,-352,Savings
+2024-06-27,Utilities,-131,Checking
+2024-06-27,Shopping,-182,Checking
+2024-06-27,Shopping,-182,Checking
+2024-06-27,Coffee,-10,Savings
+2024-06-27,Groceries,-397,Savings
+2024-06-28,Streaming Services,-12,Checking
+2024-06-28,Coffee,-10,Savings
+2024-06-29,Gym Membership,-74,Savings
+2024-06-29,Salary,3000,Checking
+2024-06-29,Rent,-1200,Checking
+2024-07-02,Gas,-84,Savings
+2024-07-02,Cinema,-12,Savings
+2024-07-03,Shopping,-182,Checking
+2024-07-04,Dinner,-50,Savings
+2024-07-04,Cinema,-12,Savings
+2024-07-05,Insurance,-128,Checking
+2024-07-06,Cinema,-12,Checking
+2024-07-07,Insurance,-128,Checking
+2024-07-08,Dinner,-50,Checking
+2024-07-08,Phone Bill,-68,Checking
+2024-07-10,Phone Bill,-68,Savings
+2024-07-10,Coffee,-10,Savings
+2024-07-10,Dinner,-50,Checking
+2024-07-12,Utilities,-131,Checking
+2024-07-12,Car Maintenance,-352,Savings
+2024-07-12,Groceries,-397,Checking
+2024-07-13,Car Maintenance,-352,Checking
+2024-07-15,Groceries,-397,Checking
+2024-07-15,Cinema,-12,Savings
+2024-07-16,Coffee,-10,Checking
+2024-07-16,Car Maintenance,-352,Savings
+2024-07-16,Cinema,-12,Checking
+2024-07-16,Miscellaneous,-47,Checking
+2024-07-17,Insurance,-128,Checking
+2024-07-18,Phone Bill,-68,Checking
+2024-07-18,Car Maintenance,-352,Savings
+2024-07-19,Insurance,-128,Savings
+2024-07-21,Shopping,-182,Checking
+2024-07-22,Miscellaneous,-47,Savings
+2024-07-22,Gym Membership,-74,Checking
+2024-07-22,Utilities,-131,Savings
+2024-07-23,Groceries,-397,Savings
+2024-07-23,Car Maintenance,-352,Savings
+2024-07-24,Streaming Services,-12,Checking
+2024-07-24,Utilities,-131,Savings
+2024-07-27,Gym Membership,-74,Savings
+2024-07-29,Rent,-1200,Checking
+2024-07-29,Car Maintenance,-352,Savings
+2024-07-29,Groceries,-397,Savings
+2024-07-29,Salary,3000,Checking
+2024-07-30,Dinner,-50,Checking
+2024-07-31,Insurance,-128,Savings
+2024-07-31,Car Maintenance,-352,Savings
+2024-07-31,Streaming Services,-12,Savings
+2024-08-01,Groceries,-397,Checking
+2024-08-01,Groceries,-397,Savings
+2024-08-02,Miscellaneous,-47,Checking
+2024-08-02,Streaming Services,-12,Savings
+2024-08-02,Coffee,-10,Savings
+2024-08-02,Phone Bill,-68,Savings
+2024-08-03,Phone Bill,-68,Checking
+2024-08-03,Miscellaneous,-47,Savings
+2024-08-04,Coffee,-10,Checking
+2024-08-04,Gym Membership,-74,Savings
+2024-08-05,Shopping,-182,Checking
+2024-08-06,Miscellaneous,-47,Checking
+2024-08-09,Streaming Services,-12,Savings
+2024-08-09,Utilities,-131,Checking
+2024-08-10,Streaming Services,-12,Checking
+2024-08-10,Car Maintenance,-352,Checking
+2024-08-11,Phone Bill,-68,Savings
+2024-08-11,Groceries,-397,Checking
+2024-08-12,Car Maintenance,-352,Checking
+2024-08-13,Shopping,-182,Savings
+2024-08-15,Cinema,-12,Checking
+2024-08-15,Dinner,-50,Checking
+2024-08-16,Car Maintenance,-352,Checking
+2024-08-17,Groceries,-397,Checking
+2024-08-17,Shopping,-182,Checking
+2024-08-18,Gas,-84,Savings
+2024-08-23,Utilities,-131,Checking
+2024-08-24,Gas,-84,Savings
+2024-08-25,Phone Bill,-68,Checking
+2024-08-26,Miscellaneous,-47,Savings
+2024-08-27,Coffee,-10,Checking
+2024-08-28,Salary,3000,Checking
+2024-08-28,Streaming Services,-12,Savings
+2024-08-28,Rent,-1200,Checking
+2024-08-28,Shopping,-182,Savings
+2024-08-29,Insurance,-128,Checking
+2024-08-30,Gas,-84,Checking
+2024-08-30,Gas,-84,Checking
+2024-08-31,Gym Membership,-74,Checking
+2024-08-31,Insurance,-128,Savings
+2024-08-31,Streaming Services,-12,Savings
+2024-09-01,Miscellaneous,-47,Savings
+2024-09-01,Phone Bill,-68,Checking
+2024-09-03,Groceries,-397,Savings
+2024-09-04,Coffee,-10,Checking
+2024-09-04,Cinema,-12,Checking
+2024-09-04,Car Maintenance,-352,Savings
+2024-09-04,Cinema,-12,Savings
+2024-09-06,Coffee,-10,Savings
+2024-09-07,Phone Bill,-68,Checking
+2024-09-07,Gas,-84,Savings
+2024-09-09,Coffee,-10,Checking
+2024-09-10,Car Maintenance,-352,Savings
+2024-09-10,Dinner,-50,Checking
+2024-09-10,Phone Bill,-68,Savings
+2024-09-11,Car Maintenance,-352,Checking
+2024-09-12,Shopping,-182,Savings
+2024-09-13,Car Maintenance,-352,Savings
+2024-09-14,Phone Bill,-68,Checking
+2024-09-16,Shopping,-182,Checking
+2024-09-16,Cinema,-12,Checking
+2024-09-17,Gym Membership,-74,Savings
+2024-09-17,Car Maintenance,-352,Checking
+2024-09-18,Shopping,-182,Savings
+2024-09-19,Coffee,-10,Checking
+2024-09-20,Dinner,-50,Savings
+2024-09-20,Car Maintenance,-352,Checking
+2024-09-21,Miscellaneous,-47,Checking
+2024-09-24,Groceries,-397,Checking
+2024-09-25,Miscellaneous,-47,Checking
+2024-09-26,Cinema,-12,Checking
+2024-09-27,Rent,-1200,Checking
+2024-09-27,Coffee,-10,Checking
+2024-09-27,Salary,3000,Checking
+2024-09-29,Phone Bill,-68,Checking
+2024-09-29,Cinema,-12,Checking
+2024-09-29,Car Maintenance,-352,Checking
+2024-09-30,Car Maintenance,-352,Savings
+2024-10-01,Cinema,-12,Checking
+2024-10-02,Miscellaneous,-47,Checking
+2024-10-02,Groceries,-397,Savings
+2024-10-03,Utilities,-131,Savings
+2024-10-03,Gas,-84,Checking
+2024-10-04,Coffee,-10,Checking
+2024-10-05,Dinner,-50,Savings
+2024-10-06,Streaming Services,-12,Savings
+2024-10-06,Dinner,-50,Checking
+2024-10-07,Gas,-84,Savings
+2024-10-08,Gym Membership,-74,Checking
+2024-10-08,Phone Bill,-68,Checking
+2024-10-09,Dinner,-50,Savings
+2024-10-10,Gym Membership,-74,Checking
+2024-10-10,Dinner,-50,Savings
+2024-10-10,Miscellaneous,-47,Checking
+2024-10-11,Shopping,-182,Savings
+2024-10-11,Groceries,-397,Checking
+2024-10-12,Shopping,-182,Checking
+2024-10-12,Miscellaneous,-47,Checking
+2024-10-13,Streaming Services,-12,Savings
+2024-10-13,Dinner,-50,Checking
+2024-10-14,Insurance,-128,Savings
+2024-10-14,Insurance,-128,Savings
+2024-10-15,Phone Bill,-68,Savings
+2024-10-16,Coffee,-10,Savings
+2024-10-16,Streaming Services,-12,Savings
+2024-10-16,Phone Bill,-68,Savings
+2024-10-17,Car Maintenance,-352,Checking
+2024-10-18,Cinema,-12,Checking
+2024-10-18,Gas,-84,Checking
+2024-10-19,Streaming Services,-12,Savings
+2024-10-20,Gas,-84,Savings
+2024-10-20,Utilities,-131,Savings
+2024-10-21,Cinema,-12,Checking
+2024-10-21,Groceries,-397,Savings
+2024-10-21,Coffee,-10,Checking
+2024-10-23,Coffee,-10,Savings
+2024-10-23,Streaming Services,-12,Savings
+2024-10-24,Phone Bill,-68,Checking
+2024-10-24,Car Maintenance,-352,Checking
+2024-10-25,Dinner,-50,Savings
+2024-10-26,Coffee,-10,Savings
+2024-10-26,Gas,-84,Checking
+2024-10-26,Cinema,-12,Checking
+2024-10-26,Dinner,-50,Checking
+2024-10-27,Rent,-1200,Checking
+2024-10-27,Salary,3000,Checking
+2024-10-27,Streaming Services,-12,Savings
+2024-10-27,Shopping,-182,Savings
+2024-10-28,Insurance,-128,Checking
+2024-10-28,Miscellaneous,-47,Savings
+2024-10-29,Phone Bill,-68,Savings
+2024-10-29,Gas,-84,Checking
+2024-10-30,Streaming Services,-12,Savings
+2024-10-31,Insurance,-128,Checking
+2024-11-01,Utilities,-131,Checking
+2024-11-02,Groceries,-397,Savings
+2024-11-03,Coffee,-10,Checking
+2024-11-03,Car Maintenance,-352,Savings
+2024-11-04,Shopping,-182,Savings
+2024-11-06,Car Maintenance,-352,Checking
+2024-11-06,Cinema,-12,Savings
+2024-11-09,Car Maintenance,-352,Savings
+2024-11-09,Dinner,-50,Savings
+2024-11-09,Coffee,-10,Savings
+2024-11-09,Gas,-84,Savings
+2024-11-09,Streaming Services,-12,Savings
+2024-11-09,Cinema,-12,Savings
+2024-11-09,Miscellaneous,-47,Checking
+2024-11-10,Groceries,-397,Checking
+2024-11-11,Phone Bill,-68,Savings
+2024-11-13,Streaming Services,-12,Savings
+2024-11-13,Insurance,-128,Savings
+2024-11-13,Miscellaneous,-47,Savings
+2024-11-13,Car Maintenance,-352,Savings
+2024-11-14,Cinema,-12,Savings
+2024-11-15,Shopping,-182,Checking
+2024-11-17,Insurance,-128,Savings
+2024-11-17,Groceries,-397,Savings
+2024-11-18,Gym Membership,-74,Savings
+2024-11-18,Gym Membership,-74,Savings
+2024-11-18,Streaming Services,-12,Savings
+2024-11-19,Miscellaneous,-47,Savings
+2024-11-20,Car Maintenance,-352,Checking
+2024-11-20,Gas,-84,Savings
+2024-11-22,Groceries,-397,Checking
+2024-11-22,Dinner,-50,Checking
+2024-11-24,Gas,-84,Checking
+2024-11-25,Groceries,-397,Savings
+2024-11-26,Rent,-1200,Checking
+2024-11-26,Salary,3000,Checking
+2024-11-26,Miscellaneous,-47,Savings
+2024-11-26,Gym Membership,-74,Checking
+2024-11-26,Miscellaneous,-47,Savings
+2024-11-27,Dinner,-50,Checking
+2024-11-27,Utilities,-131,Checking
+2024-11-29,Gas,-84,Checking
+2024-11-29,Dinner,-50,Checking
+2024-11-29,Cinema,-12,Savings
+2024-12-01,Phone Bill,-68,Checking
+2024-12-01,Car Maintenance,-352,Checking
+2024-12-01,Gas,-84,Savings
+2024-12-02,Coffee,-10,Checking
+2024-12-03,Miscellaneous,-47,Savings
+2024-12-03,Gas,-84,Savings
+2024-12-03,Dinner,-50,Savings
+2024-12-05,Phone Bill,-68,Savings
+2024-12-06,Coffee,-10,Checking
+2024-12-07,Shopping,-182,Checking
+2024-12-07,Dinner,-50,Savings
+2024-12-08,Streaming Services,-12,Savings
+2024-12-09,Utilities,-131,Checking
+2024-12-09,Gym Membership,-74,Savings
+2024-12-10,Shopping,-182,Savings
+2024-12-11,Coffee,-10,Checking
+2024-12-11,Insurance,-128,Savings
+2024-12-11,Phone Bill,-68,Savings
+2024-12-11,Cinema,-12,Checking
+2024-12-12,Car Maintenance,-352,Savings
+2024-12-12,Streaming Services,-12,Checking
+2024-12-14,Miscellaneous,-47,Checking
+2024-12-14,Shopping,-182,Savings
+2024-12-15,Cinema,-12,Savings
+2024-12-15,Car Maintenance,-352,Checking
+2024-12-16,Coffee,-10,Checking
+2024-12-17,Shopping,-182,Savings
+2024-12-18,Car Maintenance,-352,Savings
+2024-12-19,Utilities,-131,Savings
+2024-12-19,Dinner,-50,Checking
+2024-12-20,Insurance,-128,Savings
+2024-12-21,Groceries,-397,Savings
+2024-12-21,Shopping,-182,Savings
+2024-12-23,Miscellaneous,-47,Savings
+2024-12-23,Gas,-84,Checking
+2024-12-23,Car Maintenance,-352,Savings
+2024-12-24,Car Maintenance,-352,Checking
+2024-12-26,Streaming Services,-12,Checking
+2024-12-26,Salary,3000,Checking
+2024-12-26,Rent,-1200,Checking
+2024-12-27,Shopping,-182,Checking
+2024-12-30,Cinema,-12,Savings
+2024-12-30,Shopping,-182,Checking
+2024-12-31,Utilities,-131,Savings
+2024-12-31,Gas,-84,Checking
+2024-12-31,Groceries,-397,Checking
