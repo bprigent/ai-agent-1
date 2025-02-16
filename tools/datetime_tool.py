@@ -1,22 +1,27 @@
 from smolagents import Tool
 from datetime import datetime
+import pytz
 
 class DateTimeTool(Tool):
     name = "get_current_time"
     description = "Gets the current date and time in a specified format"
     inputs = {
-        "format": {
+        "timezone": {
             "type": "string",
-            "description": "Format string for datetime (e.g., '%H:%M:%S' for time only, '%Y-%m-%d %H:%M:%S' for date and time)",
-            "nullable": True,
-            "default": "%Y-%m-%d %H:%M:%S"
+            "description": "Optional timezone (e.g., 'UTC', 'US/Pacific', 'Europe/London'). Defaults to UTC",
+            "required": False,
+            "nullable": True
         }
     }
     output_type = "string"
 
-    def forward(self, format: str = "%Y-%m-%d %H:%M:%S") -> str:
+    def forward(self, timezone: str = "UTC") -> str:
         try:
-            current_time = datetime.now().strftime(format)
-            return current_time
+            tz = pytz.timezone(timezone)
+            current_time = datetime.now(tz)
+            formatted_time = current_time.strftime("%Y-%m-%d %H:%M:%S %Z")
+            return f"The current local time in {timezone} is: {formatted_time}"
+        except pytz.exceptions.UnknownTimeZoneError:
+            return f"Invalid timezone: {timezone}. Please use a valid timezone identifier."
         except Exception as e:
-            raise ValueError(f"Error formatting datetime: {str(e)}") 
+            raise ValueError(f"Error getting datetime: {str(e)}") 
