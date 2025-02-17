@@ -4,7 +4,7 @@ import os
 
 class BudgetInfoTool(Tool):
     name = "get_budget_info"
-    description = "Returns the categories of the budget and the amount for each category    "
+    description = "This is a tool that returns the categories of the budget and the amount for each category"
     inputs = {}
     output_type = "string"
 

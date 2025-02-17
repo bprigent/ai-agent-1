@@ -4,18 +4,17 @@ import pytz
 
 class GetCurrentDate(Tool):
     name = "get_current_date"
-    description = "Gets the current date for the timezone provided"
+    description = "This is a tool that gets the current date for the specified timezone"
     inputs = { 
         "timezone": {
             "type": "string",
-            "description": "Optional timezone (e.g., 'UTC', 'US/Pacific', 'Europe/London'). Defaults to UTC",
-            "required": False,
-            "nullable": True
+            "description": "Timezone (e.g., 'UTC', 'US/Pacific', 'Europe/London')",
+            "required": True
         }
     }
     output_type = "string"
 
-    def forward(self, timezone: str = "UTC") -> str:
+    def forward(self, timezone: str) -> str:
         try:
             tz = pytz.timezone(timezone)
             current_date = datetime.now(tz)
