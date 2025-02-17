@@ -4,7 +4,6 @@ import {
     Button
 } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
-import Header from '../components/Header';
 
 // Example Home component
 function Home() {
@@ -23,7 +22,6 @@ function Home() {
                 overflow: 'hidden'  // Prevent scrolling
             }}
         >
-            <Header title="Home" />
             
             <Box
                 sx={{

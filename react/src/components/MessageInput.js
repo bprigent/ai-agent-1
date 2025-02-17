@@ -1,7 +1,7 @@
 import { Box, TextField, Button, CircularProgress } from '@mui/material';
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { addMessage, messageAgent } from '../store/messagesSlice';
+import { messageAgent } from '../store/messagesSlice';
 
 function MessageInput() {
     const [message, setMessage] = useState('');
@@ -13,17 +13,8 @@ function MessageInput() {
         e.preventDefault();
         if (!message.trim() || isLoading) return;
         
-        dispatch(addMessage({
-            id: Date.now(),
-            author: 'user',
-            content: message,
-            status: 'sent'
-        }));
-
         try {
-            const result = await dispatch(messageAgent(message)).unwrap();
-            dispatch(addMessage(result));
-            console.log('Agent response:', result.content);
+            await dispatch(messageAgent(message)).unwrap();
         } catch (error) {
             console.error('Failed to send message:', error);
         }

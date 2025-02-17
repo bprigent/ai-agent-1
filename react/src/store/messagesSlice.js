@@ -2,28 +2,48 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
 export const messageAgent = createAsyncThunk(
     'messages/messageAgent',
-    async (message) => {
-        console.log('Sending message to agent:', message);
-        const response = await fetch('http://localhost:8000/api/message-agent', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({ message })
-        }); 
-        
-        if (!response.ok) {
-            throw new Error('Network response was not ok');
+    async (message, { dispatch, signal }) => {
+        try {
+            // First, add the user's message
+            const userMessage = {
+                id: Date.now(),
+                author: 'user',
+                content: message,
+                status: 'sent'
+            };
+            dispatch(addMessage(userMessage));
+
+            const controller = new AbortController();
+            signal.addEventListener('abort', () => controller.abort());
+
+            const response = await fetch('http://localhost:8000/api/message-agent', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ message }),
+                signal: controller.signal
+            }); 
+            
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            
+            const data = await response.json();
+            
+            // Return only the assistant's response
+            return {
+                id: Date.now(),
+                author: 'assistant',
+                content: data.response,
+                status: data.status
+            };
+        } catch (error) {
+            if (error.name === 'AbortError') {
+                return;
+            }
+            throw error;
         }
-        
-        const data = await response.json();
-        console.log('Received response from agent:', data);
-        return {
-            id: Date.now(),
-            author: 'assistant',
-            content: data.response,
-            status: data.status
-        };
     }
 );
 
@@ -51,26 +71,15 @@ const messagesSlice = createSlice({
     extraReducers: (builder) => {
         builder
             .addCase(messageAgent.pending, (state) => {
-                console.log('Agent request pending');
                 state.status = 'loading';
             })
             .addCase(messageAgent.fulfilled, (state, action) => {
-                console.log('Agent request fulfilled:', action.payload);
                 state.status = 'succeeded';
-                if (action.payload.status === 'success') {
+                if (action.payload?.status === 'success') {
                     state.messages.push(action.payload);
-                } else {
-                    state.error = action.payload.response;
-                    state.messages.push({
-                        id: Date.now(),
-                        author: 'system',
-                        content: `Error: ${action.payload.response}`,
-                        status: 'error'
-                    });
                 }
             })
             .addCase(messageAgent.rejected, (state, action) => {
-                console.log('Agent request rejected:', action.error);
                 state.status = 'failed';
                 state.error = action.error.message;
                 state.messages.push({

@@ -12,7 +12,7 @@ function Navigation() {
     const drawerWidth = 320;
 
     const menuItems = [
-        { text: 'Home', path: '/' },
+        { text: 'Origin Agent', path: '/' },
         { text: 'Chat', path: '/chat' },
         { text: 'Budget', path: '/budget' },
         { text: 'Expenses', path: '/expenses' }

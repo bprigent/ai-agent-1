@@ -24,7 +24,19 @@ function Budget() {
     ];
 
     useEffect(() => {
-        dispatch(fetchBudget());
+        let mounted = true;
+        
+        const fetchData = async () => {
+            if (mounted) {
+                dispatch(fetchBudget());
+            }
+        };
+
+        fetchData();
+
+        return () => {
+            mounted = false;
+        };
     }, [dispatch]);
 
     return (

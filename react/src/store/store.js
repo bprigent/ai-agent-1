@@ -3,10 +3,12 @@ import messagesReducer from './messagesSlice';
 import expensesReducer from './expensesSlice';
 import budgetReducer from './budgetSlice';  
 
-export default configureStore({
+const store = configureStore({
     reducer: {
         messages: messagesReducer,
         expenses: expensesReducer,
         budget: budgetReducer,
     },
 });
+
+export default store;
