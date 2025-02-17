@@ -13,7 +13,9 @@ function Navigation() {
 
     const menuItems = [
         { text: 'Home', path: '/' },
-        { text: 'Chat', path: '/chat' }
+        { text: 'Chat', path: '/chat' },
+        { text: 'Budget', path: '/budget' },
+        { text: 'Expenses', path: '/expenses' }
     ];
 
     return (

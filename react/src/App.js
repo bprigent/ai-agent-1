@@ -6,6 +6,8 @@ import Chat from './pages/Chat';
 import Navigation from './components/Navigation';
 import store from './store/store';
 import { Provider } from 'react-redux';
+import Expenses from './pages/Expenses';
+import Budget from './pages/Budget';
 
 const theme = createTheme({
   palette: {
@@ -70,6 +72,8 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/chat" element={<Chat />} />
             <Route path="*" element={<NotFound />} />
+            <Route path="/expenses" element={<Expenses />} />
+            <Route path="/budget" element={<Budget />} />
           </Routes>
           </Box>
         </Box>
