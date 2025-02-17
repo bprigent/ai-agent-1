@@ -1,16 +1,17 @@
-import { Box, TextField, Button } from '@mui/material';
+import { Box, TextField, Button, CircularProgress } from '@mui/material';
 import { useState } from 'react';
-import { useDispatch } from 'react-redux';
-import { addMessage } from '../store/messagesSlice';
-import { messageAgent } from '../store/messagesSlice';
+import { useDispatch, useSelector } from 'react-redux';
+import { addMessage, messageAgent } from '../store/messagesSlice';
 
 function MessageInput() {
     const [message, setMessage] = useState('');
     const dispatch = useDispatch();
+    const status = useSelector(state => state.messages.status);
+    const isLoading = status === 'loading';
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        if (!message.trim()) return;
+        if (!message.trim() || isLoading) return;
         
         dispatch(addMessage({
             id: Date.now(),
@@ -19,7 +20,11 @@ function MessageInput() {
             status: 'sent'
         }));
 
-        dispatch(messageAgent(message));
+        try {
+            await dispatch(messageAgent(message)).unwrap();
+        } catch (error) {
+            console.error('Failed to send message:', error);
+        }
 
         setMessage('');
     };
@@ -43,13 +48,14 @@ function MessageInput() {
                 onChange={(e) => setMessage(e.target.value)}
                 placeholder="Type your message..."
                 variant="outlined"
+                disabled={isLoading}
             />
             <Button 
                 type="submit"
                 variant="contained"
-                disabled={!message.trim()}
+                disabled={!message.trim() || isLoading}
             >
-                Send
+                {isLoading ? <CircularProgress size={24} /> : 'Send'}
             </Button>
         </Box>
     );

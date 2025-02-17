@@ -5,9 +5,23 @@ export const messageAgent = createAsyncThunk(
     async (message) => {
         const response = await fetch('/api/message-agent', {
             method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
             body: JSON.stringify({ message })
         }); 
-        return response.json();
+        
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        
+        const data = await response.json();
+        return {
+            id: Date.now(),
+            author: 'assistant',
+            content: data.response,
+            status: data.status
+        };
     }
 );
 
@@ -31,11 +45,22 @@ const messagesSlice = createSlice({
             })
             .addCase(messageAgent.fulfilled, (state, action) => {
                 state.status = 'succeeded';
-                state.messages.push(action.payload);
+                if (action.payload.status === 'success') {
+                    state.messages.push(action.payload);
+                } else {
+                    state.error = action.payload.response;
+                }
             })
             .addCase(messageAgent.rejected, (state, action) => {
-                state.status = 'failed';    
-            })
+                state.status = 'failed';
+                state.error = action.error.message;
+                state.messages.push({
+                    id: Date.now(),
+                    author: 'system',
+                    content: 'Error: Failed to get response from agent',
+                    status: 'error'
+                });
+            });
     }
 });
 
