@@ -1,6 +1,6 @@
 from smolagents import CodeAgent, HfApiModel, DuckDuckGoSearchTool
 from tools import CalculatorTool, DateTimeTool, ExpenseRangeTool, FinalAnswerTool
-from python.config import get_api_token
+from config import get_api_token
 
 
 def main():

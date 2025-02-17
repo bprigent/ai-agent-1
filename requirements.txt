@@ -1,5 +1,0 @@
-smolagents
-transformers
-torch
-pandas
-numpy
