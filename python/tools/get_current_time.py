@@ -4,7 +4,7 @@ import pytz
 
 class GetCurrentTime(Tool):
     name = "get_current_time"
-    description = "This is a tool that gets the current time for the specified timezone"
+    description = "This is a tool that gets the current time for the specified timezone. Ask user for the timezone or location if not provided."
     inputs = {
         "timezone": {
             "type": "string",

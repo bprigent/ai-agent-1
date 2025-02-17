@@ -1,6 +1,7 @@
-from smolagents import CodeAgent, HfApiModel, DuckDuckGoSearchTool, PythonInterpreterTool
+from smolagents import CodeAgent, HfApiModel, PythonInterpreterTool, DuckDuckGoSearchTool
 from tools import GetCurrentDate, FinalAnswerTool, GetCurrentTime, ExpenseListTool, ExpenseSummaryTool, BudgetInfoTool, UserInputTool
 from config import get_api_token
+
 
 
 
@@ -17,6 +18,15 @@ def main():
         token=api_token  # Add the token here
     )
 
+    # This is another agent that can run web searches for the manager agent.
+    web_agent = CodeAgent(
+        tools=[DuckDuckGoSearchTool()],
+        model=model,
+        verbosity_level=0,
+        name="web_search_tool_agent",
+        description="This agent and tool runs web searches for you. Give it your query as an argument."
+    )
+
 
     # Get the tools for the models ready
     date_tool = GetCurrentDate() # DateTime tool
@@ -24,10 +34,11 @@ def main():
     expense_list = ExpenseListTool() # Expense list tool
     expense_summary = ExpenseSummaryTool() # Expense summary tool
     final_answer = FinalAnswerTool() # Final answer tool
-    search_the_internet = DuckDuckGoSearchTool() # Search the internet tool
     python_interpreter = PythonInterpreterTool() # Python interpreter tool
     budget_info = BudgetInfoTool() # Budget info tool
     user_input = UserInputTool() # User input tool
+
+
 
     # Initialize the agent, the agent is a code agent
     agent = CodeAgent(
@@ -37,11 +48,11 @@ def main():
             expense_list, 
             expense_summary, 
             final_answer, 
-            search_the_internet, 
             python_interpreter,
             budget_info,
             user_input
         ], # Tools
+        managed_agents=[web_agent],
         model=model, # pass the model.
         add_base_tools=False, # we are not passing basic tools right now. In order to have better understanding of the agent abilities.
         verbosity_level=2,  # How much detail to show in the output
