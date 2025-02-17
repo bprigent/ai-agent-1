@@ -1,0 +1,1255 @@
+Date,Expense Name,Amount,Account Number,Budget Category
+2023-01-01,Salary Payment,3000,Checking,Salary
+2023-01-01,Emergency Fund Contribution,180,Checking,Savings
+2023-01-01,Nike Shoes,-213,Checking,Shopping & Miscellaneous
+2023-01-01,Local Theatre Play,-66,Savings,Entertainment
+2023-01-01,Monthly Rent - Apartment,-1200,Checking,Rent
+2023-01-02,Emergency Fund Contribution,360,Checking,Savings
+2023-01-02,Electricity Bill - PowerCo,-88,Checking,Utilities & Bills
+2023-01-02,Chipotle,-65,Savings,Groceries & Dining
+2023-01-04,Internet Bill - Comcast,-99,Savings,Utilities & Bills
+2023-01-05,Transfer to Savings Account,316,Savings,Savings
+2023-01-05,Zara Clothing,-34,Savings,Shopping & Miscellaneous
+2023-01-08,Starbucks Coffee,-173,Checking,Groceries & Dining
+2023-01-09,Trader Joe's,-234,Savings,Groceries & Dining
+2023-01-10,Water Bill - City Water,-42,Savings,Utilities & Bills
+2023-01-12,Sephora Makeup,-117,Savings,Shopping & Miscellaneous
+2023-01-12,Amazon Purchase,-40,Savings,Shopping & Miscellaneous
+2023-01-12,Mobile Plan - Verizon,-97,Savings,Utilities & Bills
+2023-01-13,Sephora Makeup,-231,Checking,Shopping & Miscellaneous
+2023-01-13,Sephora Makeup,-177,Savings,Shopping & Miscellaneous
+2023-01-14,Amazon Prime Video,-54,Checking,Entertainment
+2023-01-14,Transfer to Savings Account,349,Checking,Savings
+2023-01-15,Transfer to Savings Account,441,Checking,Savings
+2023-01-15,Escape Room Experience,-11,Checking,Entertainment
+2023-01-15,IKEA Furniture,-249,Checking,Shopping & Miscellaneous
+2023-01-16,Escape Room Experience,-40,Savings,Entertainment
+2023-01-17,Investment Deposit,278,Savings,Savings
+2023-01-18,Etsy Handmade Goods,-39,Savings,Shopping & Miscellaneous
+2023-01-18,Transfer to Savings Account,303,Checking,Savings
+2023-01-19,Concert Tickets,-61,Savings,Entertainment
+2023-01-20,Sephora Makeup,-188,Savings,Shopping & Miscellaneous
+2023-01-21,Internet Bill - Comcast,-40,Savings,Utilities & Bills
+2023-01-21,Amusement Park Ticket,-37,Savings,Entertainment
+2023-01-21,Trader Joe's,-227,Savings,Groceries & Dining
+2023-01-22,Amusement Park Ticket,-14,Savings,Entertainment
+2023-01-22,Heating Bill - GasCompany,-31,Checking,Utilities & Bills
+2023-01-25,Amazon Prime Video,-36,Savings,Entertainment
+2023-01-26,Netflix Subscription,-32,Savings,Entertainment
+2023-01-27,Emergency Fund Contribution,252,Checking,Savings
+2023-01-27,Investment Deposit,227,Savings,Savings
+2023-01-28,Heating Bill - GasCompany,-67,Savings,Utilities & Bills
+2023-01-28,DoorDash,-237,Checking,Groceries & Dining
+2023-01-28,Target Shopping,-173,Savings,Shopping & Miscellaneous
+2023-01-29,Best Buy Electronics,-196,Savings,Shopping & Miscellaneous
+2023-01-29,Stock Purchase - Robinhood,354,Savings,Savings
+2023-01-30,Stock Purchase - Robinhood,291,Savings,Savings
+2023-01-30,Electricity Bill - PowerCo,-37,Checking,Utilities & Bills
+2023-01-31,Salary Payment,3000,Checking,Salary
+2023-01-31,Target Shopping,-241,Savings,Shopping & Miscellaneous
+2023-01-31,Monthly Rent - Apartment,-1200,Checking,Rent
+2023-01-31,Domino's Pizza,-95,Checking,Groceries & Dining
+2023-01-31,Retirement Contribution - Vanguard,239,Checking,Savings
+2023-02-01,Domino's Pizza,-183,Savings,Groceries & Dining
+2023-02-01,Escape Room Experience,-18,Checking,Entertainment
+2023-02-01,Mobile Plan - Verizon,-37,Checking,Utilities & Bills
+2023-02-02,Electricity Bill - PowerCo,-66,Savings,Utilities & Bills
+2023-02-02,Best Buy Electronics,-46,Checking,Shopping & Miscellaneous
+2023-02-02,Spotify Premium,-56,Savings,Entertainment
+2023-02-02,Transfer to Savings Account,273,Savings,Savings
+2023-02-02,Local Boutique Purchase,-44,Savings,Shopping & Miscellaneous
+2023-02-03,Transfer to Savings Account,301,Checking,Savings
+2023-02-03,Escape Room Experience,-68,Checking,Entertainment
+2023-02-05,Domino's Pizza,-174,Savings,Groceries & Dining
+2023-02-05,Local Boutique Purchase,-89,Checking,Shopping & Miscellaneous
+2023-02-05,Water Bill - City Water,-76,Savings,Utilities & Bills
+2023-02-06,Apple Store,-108,Savings,Shopping & Miscellaneous
+2023-02-06,Walmart Groceries,-296,Checking,Groceries & Dining
+2023-02-07,Mobile Plan - Verizon,-51,Savings,Utilities & Bills
+2023-02-08,Emergency Fund Contribution,308,Savings,Savings
+2023-02-09,Heating Bill - GasCompany,-26,Savings,Utilities & Bills
+2023-02-09,Internet Bill - Comcast,-91,Checking,Utilities & Bills
+2023-02-10,Best Buy Electronics,-245,Savings,Shopping & Miscellaneous
+2023-02-11,Fine Dining Restaurant,-115,Savings,Groceries & Dining
+2023-02-11,Apple Store,-117,Savings,Shopping & Miscellaneous
+2023-02-11,Water Bill - City Water,-92,Savings,Utilities & Bills
+2023-02-12,Netflix Subscription,-54,Checking,Entertainment
+2023-02-13,Internet Bill - Comcast,-50,Savings,Utilities & Bills
+2023-02-14,Electricity Bill - PowerCo,-88,Savings,Utilities & Bills
+2023-02-14,Water Bill - City Water,-40,Checking,Utilities & Bills
+2023-02-14,Stock Purchase - Robinhood,329,Savings,Savings
+2023-02-14,Water Bill - City Water,-20,Checking,Utilities & Bills
+2023-02-14,Heating Bill - GasCompany,-37,Savings,Utilities & Bills
+2023-02-16,Netflix Subscription,-30,Checking,Entertainment
+2023-02-17,Starbucks Coffee,-159,Savings,Groceries & Dining
+2023-02-18,Stock Purchase - Robinhood,336,Savings,Savings
+2023-02-19,Mobile Plan - Verizon,-20,Savings,Utilities & Bills
+2023-02-21,Transfer to Savings Account,411,Checking,Savings
+2023-02-21,Etsy Handmade Goods,-111,Checking,Shopping & Miscellaneous
+2023-02-22,Spotify Premium,-25,Savings,Entertainment
+2023-02-22,Amusement Park Ticket,-29,Checking,Entertainment
+2023-02-22,Electricity Bill - PowerCo,-83,Savings,Utilities & Bills
+2023-02-23,Escape Room Experience,-25,Savings,Entertainment
+2023-02-23,Amazon Prime Video,-60,Savings,Entertainment
+2023-02-23,Zara Clothing,-183,Checking,Shopping & Miscellaneous
+2023-02-24,Walmart Household Supplies,-90,Checking,Shopping & Miscellaneous
+2023-02-25,Transfer to Savings Account,153,Checking,Savings
+2023-02-25,Trader Joe's,-199,Checking,Groceries & Dining
+2023-02-26,Best Buy Electronics,-221,Savings,Shopping & Miscellaneous
+2023-02-26,Water Bill - City Water,-48,Savings,Utilities & Bills
+2023-02-26,Uber Eats,-146,Checking,Groceries & Dining
+2023-02-27,Concert Tickets,-51,Checking,Entertainment
+2023-02-27,Stock Purchase - Robinhood,336,Savings,Savings
+2023-02-27,McDonald's,-179,Checking,Groceries & Dining
+2023-02-27,Etsy Handmade Goods,-211,Savings,Shopping & Miscellaneous
+2023-02-28,Concert Tickets,-17,Savings,Entertainment
+2023-02-28,Netflix Subscription,-40,Checking,Entertainment
+2023-03-02,Salary Payment,3000,Checking,Salary
+2023-03-02,Monthly Rent - Apartment,-1200,Checking,Rent
+2023-03-02,Investment Deposit,395,Checking,Savings
+2023-03-03,McDonald's,-250,Savings,Groceries & Dining
+2023-03-03,Escape Room Experience,-29,Checking,Entertainment
+2023-03-03,Target Shopping,-200,Checking,Shopping & Miscellaneous
+2023-03-04,Heating Bill - GasCompany,-20,Checking,Utilities & Bills
+2023-03-06,Local Boutique Purchase,-138,Checking,Shopping & Miscellaneous
+2023-03-08,Mobile Plan - Verizon,-29,Checking,Utilities & Bills
+2023-03-08,Nike Shoes,-89,Checking,Shopping & Miscellaneous
+2023-03-10,HBO Max Subscription,-17,Checking,Entertainment
+2023-03-10,Movie Night - AMC Theatres,-29,Savings,Entertainment
+2023-03-10,Heating Bill - GasCompany,-41,Savings,Utilities & Bills
+2023-03-11,HBO Max Subscription,-49,Checking,Entertainment
+2023-03-12,Mobile Plan - Verizon,-99,Checking,Utilities & Bills
+2023-03-12,Walmart Household Supplies,-135,Savings,Shopping & Miscellaneous
+2023-03-12,Electricity Bill - PowerCo,-58,Savings,Utilities & Bills
+2023-03-13,IKEA Furniture,-96,Checking,Shopping & Miscellaneous
+2023-03-13,Retirement Contribution - Vanguard,262,Savings,Savings
+2023-03-14,IKEA Furniture,-137,Savings,Shopping & Miscellaneous
+2023-03-14,Heating Bill - GasCompany,-61,Checking,Utilities & Bills
+2023-03-15,Amazon Prime Video,-22,Checking,Entertainment
+2023-03-15,Trader Joe's,-112,Checking,Groceries & Dining
+2023-03-16,IKEA Furniture,-229,Checking,Shopping & Miscellaneous
+2023-03-17,Internet Bill - Comcast,-71,Checking,Utilities & Bills
+2023-03-18,Internet Bill - Comcast,-90,Savings,Utilities & Bills
+2023-03-21,Heating Bill - GasCompany,-87,Checking,Utilities & Bills
+2023-03-22,Stock Purchase - Robinhood,451,Savings,Savings
+2023-03-23,Mobile Plan - Verizon,-55,Savings,Utilities & Bills
+2023-03-24,McDonald's,-298,Savings,Groceries & Dining
+2023-03-26,Retirement Contribution - Vanguard,286,Checking,Savings
+2023-03-26,Mobile Plan - Verizon,-83,Savings,Utilities & Bills
+2023-03-27,Netflix Subscription,-42,Savings,Entertainment
+2023-03-28,Concert Tickets,-54,Savings,Entertainment
+2023-03-29,Local Theatre Play,-40,Checking,Entertainment
+2023-03-30,Transfer to Savings Account,142,Savings,Savings
+2023-03-30,Amazon Purchase,-186,Savings,Shopping & Miscellaneous
+2023-04-01,Monthly Rent - Apartment,-1200,Checking,Rent
+2023-04-01,Salary Payment,3000,Checking,Salary
+2023-04-04,Amazon Purchase,-104,Savings,Shopping & Miscellaneous
+2023-04-04,Water Bill - City Water,-52,Savings,Utilities & Bills
+2023-04-04,Stock Purchase - Robinhood,373,Savings,Savings
+2023-04-05,Zara Clothing,-61,Savings,Shopping & Miscellaneous
+2023-04-05,Local Farmers Market,-66,Checking,Groceries & Dining
+2023-04-07,Water Bill - City Water,-77,Checking,Utilities & Bills
+2023-04-08,Local Theatre Play,-27,Checking,Entertainment
+2023-04-09,Electricity Bill - PowerCo,-91,Checking,Utilities & Bills
+2023-04-10,Trader Joe's,-67,Checking,Groceries & Dining
+2023-04-13,Etsy Handmade Goods,-168,Checking,Shopping & Miscellaneous
+2023-04-13,Mobile Plan - Verizon,-89,Savings,Utilities & Bills
+2023-04-14,Uber Eats,-71,Checking,Groceries & Dining
+2023-04-14,Water Bill - City Water,-56,Checking,Utilities & Bills
+2023-04-15,Transfer to Savings Account,231,Savings,Savings
+2023-04-17,Heating Bill - GasCompany,-31,Checking,Utilities & Bills
+2023-04-18,Chipotle,-212,Checking,Groceries & Dining
+2023-04-19,Transfer to Savings Account,425,Checking,Savings
+2023-04-19,Transfer to Savings Account,314,Savings,Savings
+2023-04-19,Heating Bill - GasCompany,-49,Savings,Utilities & Bills
+2023-04-21,Stock Purchase - Robinhood,228,Checking,Savings
+2023-04-21,Escape Room Experience,-44,Savings,Entertainment
+2023-04-21,Water Bill - City Water,-65,Checking,Utilities & Bills
+2023-04-22,Concert Tickets,-11,Savings,Entertainment
+2023-04-23,Concert Tickets,-17,Checking,Entertainment
+2023-04-23,Electricity Bill - PowerCo,-96,Checking,Utilities & Bills
+2023-04-24,Electricity Bill - PowerCo,-68,Checking,Utilities & Bills
+2023-04-24,Spotify Premium,-60,Checking,Entertainment
+2023-04-25,Internet Bill - Comcast,-37,Savings,Utilities & Bills
+2023-04-25,Uber Eats,-101,Savings,Groceries & Dining
+2023-04-26,Domino's Pizza,-230,Savings,Groceries & Dining
+2023-04-26,Mobile Plan - Verizon,-98,Checking,Utilities & Bills
+2023-04-26,Mobile Plan - Verizon,-95,Checking,Utilities & Bills
+2023-04-27,Investment Deposit,189,Checking,Savings
+2023-04-27,Starbucks Coffee,-133,Savings,Groceries & Dining
+2023-04-27,Amazon Prime Video,-30,Savings,Entertainment
+2023-04-29,Etsy Handmade Goods,-54,Savings,Shopping & Miscellaneous
+2023-04-29,Escape Room Experience,-31,Savings,Entertainment
+2023-04-30,Domino's Pizza,-214,Checking,Groceries & Dining
+2023-04-30,DoorDash,-225,Savings,Groceries & Dining
+2023-05-01,Monthly Rent - Apartment,-1200,Checking,Rent
+2023-05-01,Local Theatre Play,-58,Savings,Entertainment
+2023-05-01,Sephora Makeup,-120,Savings,Shopping & Miscellaneous
+2023-05-01,Salary Payment,3000,Checking,Salary
+2023-05-02,Chipotle,-242,Checking,Groceries & Dining
+2023-05-02,Fine Dining Restaurant,-156,Savings,Groceries & Dining
+2023-05-04,Amazon Purchase,-55,Checking,Shopping & Miscellaneous
+2023-05-05,Netflix Subscription,-35,Checking,Entertainment
+2023-05-05,Chipotle,-192,Checking,Groceries & Dining
+2023-05-07,Transfer to Savings Account,183,Checking,Savings
+2023-05-08,Stock Purchase - Robinhood,279,Savings,Savings
+2023-05-09,Investment Deposit,371,Checking,Savings
+2023-05-10,Domino's Pizza,-171,Checking,Groceries & Dining
+2023-05-10,Whole Foods,-216,Savings,Groceries & Dining
+2023-05-10,Emergency Fund Contribution,242,Savings,Savings
+2023-05-13,IKEA Furniture,-90,Savings,Shopping & Miscellaneous
+2023-05-13,Amazon Purchase,-142,Savings,Shopping & Miscellaneous
+2023-05-14,HBO Max Subscription,-38,Checking,Entertainment
+2023-05-14,Local Farmers Market,-238,Savings,Groceries & Dining
+2023-05-14,Movie Night - AMC Theatres,-55,Checking,Entertainment
+2023-05-15,Amazon Purchase,-49,Savings,Shopping & Miscellaneous
+2023-05-16,Whole Foods,-238,Checking,Groceries & Dining
+2023-05-21,Amusement Park Ticket,-67,Checking,Entertainment
+2023-05-21,Amusement Park Ticket,-50,Savings,Entertainment
+2023-05-22,Electricity Bill - PowerCo,-38,Savings,Utilities & Bills
+2023-05-22,Mobile Plan - Verizon,-49,Savings,Utilities & Bills
+2023-05-22,Investment Deposit,434,Savings,Savings
+2023-05-23,Walmart Groceries,-192,Savings,Groceries & Dining
+2023-05-24,Electricity Bill - PowerCo,-72,Savings,Utilities & Bills
+2023-05-25,Etsy Handmade Goods,-107,Checking,Shopping & Miscellaneous
+2023-05-26,Escape Room Experience,-57,Savings,Entertainment
+2023-05-26,Fine Dining Restaurant,-259,Checking,Groceries & Dining
+2023-05-26,Local Theatre Play,-32,Checking,Entertainment
+2023-05-26,Escape Room Experience,-23,Savings,Entertainment
+2023-05-27,Local Theatre Play,-11,Savings,Entertainment
+2023-05-28,HBO Max Subscription,-30,Checking,Entertainment
+2023-05-28,Heating Bill - GasCompany,-68,Checking,Utilities & Bills
+2023-05-29,HBO Max Subscription,-25,Checking,Entertainment
+2023-05-29,Amazon Purchase,-90,Checking,Shopping & Miscellaneous
+2023-05-29,Zara Clothing,-201,Checking,Shopping & Miscellaneous
+2023-05-30,Amusement Park Ticket,-16,Checking,Entertainment
+2023-05-30,Uber Eats,-221,Savings,Groceries & Dining
+2023-05-30,Nike Shoes,-247,Checking,Shopping & Miscellaneous
+2023-05-30,Mobile Plan - Verizon,-50,Savings,Utilities & Bills
+2023-05-30,Amazon Prime Video,-65,Checking,Entertainment
+2023-05-31,Best Buy Electronics,-131,Checking,Shopping & Miscellaneous
+2023-05-31,Emergency Fund Contribution,142,Checking,Savings
+2023-05-31,Monthly Rent - Apartment,-1200,Checking,Rent
+2023-05-31,Salary Payment,3000,Checking,Salary
+2023-06-01,Sephora Makeup,-41,Checking,Shopping & Miscellaneous
+2023-06-01,Amazon Prime Video,-16,Savings,Entertainment
+2023-06-02,Whole Foods,-102,Checking,Groceries & Dining
+2023-06-03,Walmart Household Supplies,-130,Checking,Shopping & Miscellaneous
+2023-06-03,Best Buy Electronics,-46,Savings,Shopping & Miscellaneous
+2023-06-03,IKEA Furniture,-116,Savings,Shopping & Miscellaneous
+2023-06-03,Local Theatre Play,-58,Savings,Entertainment
+2023-06-03,Internet Bill - Comcast,-51,Checking,Utilities & Bills
+2023-06-04,Target Shopping,-213,Checking,Shopping & Miscellaneous
+2023-06-04,Domino's Pizza,-271,Checking,Groceries & Dining
+2023-06-05,Electricity Bill - PowerCo,-68,Checking,Utilities & Bills
+2023-06-05,Local Theatre Play,-49,Checking,Entertainment
+2023-06-05,DoorDash,-245,Checking,Groceries & Dining
+2023-06-05,Trader Joe's,-93,Savings,Groceries & Dining
+2023-06-05,Starbucks Coffee,-263,Checking,Groceries & Dining
+2023-06-06,Fine Dining Restaurant,-243,Savings,Groceries & Dining
+2023-06-07,Amazon Purchase,-68,Checking,Shopping & Miscellaneous
+2023-06-08,Chipotle,-86,Savings,Groceries & Dining
+2023-06-08,Spotify Premium,-12,Checking,Entertainment
+2023-06-09,Spotify Premium,-43,Savings,Entertainment
+2023-06-09,Walmart Household Supplies,-88,Savings,Shopping & Miscellaneous
+2023-06-10,Electricity Bill - PowerCo,-55,Savings,Utilities & Bills
+2023-06-13,Electricity Bill - PowerCo,-79,Savings,Utilities & Bills
+2023-06-14,Stock Purchase - Robinhood,318,Savings,Savings
+2023-06-15,Electricity Bill - PowerCo,-43,Checking,Utilities & Bills
+2023-06-16,DoorDash,-127,Checking,Groceries & Dining
+2023-06-16,Netflix Subscription,-11,Checking,Entertainment
+2023-06-16,Zara Clothing,-38,Checking,Shopping & Miscellaneous
+2023-06-18,Retirement Contribution - Vanguard,481,Savings,Savings
+2023-06-18,Movie Night - AMC Theatres,-42,Savings,Entertainment
+2023-06-20,Netflix Subscription,-29,Checking,Entertainment
+2023-06-20,Retirement Contribution - Vanguard,114,Checking,Savings
+2023-06-21,Water Bill - City Water,-72,Savings,Utilities & Bills
+2023-06-21,HBO Max Subscription,-27,Savings,Entertainment
+2023-06-22,Stock Purchase - Robinhood,273,Checking,Savings
+2023-06-22,Investment Deposit,191,Savings,Savings
+2023-06-22,Transfer to Savings Account,151,Checking,Savings
+2023-06-25,Local Theatre Play,-20,Savings,Entertainment
+2023-06-26,Mobile Plan - Verizon,-76,Checking,Utilities & Bills
+2023-06-26,Domino's Pizza,-276,Savings,Groceries & Dining
+2023-06-28,Movie Night - AMC Theatres,-19,Savings,Entertainment
+2023-06-28,Best Buy Electronics,-86,Savings,Shopping & Miscellaneous
+2023-06-29,Amusement Park Ticket,-59,Savings,Entertainment
+2023-06-30,Concert Tickets,-53,Checking,Entertainment
+2023-06-30,Monthly Rent - Apartment,-1200,Checking,Rent
+2023-06-30,Salary Payment,3000,Checking,Salary
+2023-07-01,Zara Clothing,-195,Savings,Shopping & Miscellaneous
+2023-07-01,Transfer to Savings Account,105,Checking,Savings
+2023-07-01,Investment Deposit,242,Checking,Savings
+2023-07-01,Uber Eats,-286,Savings,Groceries & Dining
+2023-07-02,Emergency Fund Contribution,335,Checking,Savings
+2023-07-02,Spotify Premium,-21,Savings,Entertainment
+2023-07-03,Amazon Purchase,-67,Savings,Shopping & Miscellaneous
+2023-07-03,Spotify Premium,-14,Checking,Entertainment
+2023-07-03,Walmart Household Supplies,-238,Savings,Shopping & Miscellaneous
+2023-07-04,Mobile Plan - Verizon,-84,Checking,Utilities & Bills
+2023-07-04,Target Shopping,-70,Savings,Shopping & Miscellaneous
+2023-07-04,Water Bill - City Water,-53,Savings,Utilities & Bills
+2023-07-06,Retirement Contribution - Vanguard,385,Savings,Savings
+2023-07-07,Apple Store,-215,Savings,Shopping & Miscellaneous
+2023-07-07,Movie Night - AMC Theatres,-45,Savings,Entertainment
+2023-07-07,Mobile Plan - Verizon,-61,Savings,Utilities & Bills
+2023-07-08,Starbucks Coffee,-215,Savings,Groceries & Dining
+2023-07-10,Zara Clothing,-195,Savings,Shopping & Miscellaneous
+2023-07-11,Internet Bill - Comcast,-65,Checking,Utilities & Bills
+2023-07-13,Nike Shoes,-234,Savings,Shopping & Miscellaneous
+2023-07-15,Uber Eats,-267,Savings,Groceries & Dining
+2023-07-16,Amusement Park Ticket,-23,Savings,Entertainment
+2023-07-16,Amusement Park Ticket,-15,Savings,Entertainment
+2023-07-17,McDonald's,-192,Savings,Groceries & Dining
+2023-07-17,Amazon Prime Video,-14,Savings,Entertainment
+2023-07-18,Investment Deposit,236,Savings,Savings
+2023-07-20,Investment Deposit,324,Savings,Savings
+2023-07-20,Water Bill - City Water,-53,Savings,Utilities & Bills
+2023-07-21,Trader Joe's,-236,Checking,Groceries & Dining
+2023-07-21,McDonald's,-135,Checking,Groceries & Dining
+2023-07-22,Spotify Premium,-64,Checking,Entertainment
+2023-07-23,Retirement Contribution - Vanguard,228,Savings,Savings
+2023-07-24,Stock Purchase - Robinhood,244,Checking,Savings
+2023-07-24,Stock Purchase - Robinhood,163,Checking,Savings
+2023-07-25,Water Bill - City Water,-35,Checking,Utilities & Bills
+2023-07-25,Heating Bill - GasCompany,-80,Savings,Utilities & Bills
+2023-07-26,Transfer to Savings Account,471,Savings,Savings
+2023-07-26,Target Shopping,-88,Savings,Shopping & Miscellaneous
+2023-07-27,Movie Night - AMC Theatres,-22,Checking,Entertainment
+2023-07-27,Electricity Bill - PowerCo,-24,Checking,Utilities & Bills
+2023-07-28,Emergency Fund Contribution,377,Checking,Savings
+2023-07-28,HBO Max Subscription,-56,Checking,Entertainment
+2023-07-29,Internet Bill - Comcast,-86,Savings,Utilities & Bills
+2023-07-29,Sephora Makeup,-123,Checking,Shopping & Miscellaneous
+2023-07-30,Salary Payment,3000,Checking,Salary
+2023-07-30,Monthly Rent - Apartment,-1200,Checking,Rent
+2023-07-30,HBO Max Subscription,-63,Savings,Entertainment
+2023-07-31,Water Bill - City Water,-73,Savings,Utilities & Bills
+2023-07-31,Mobile Plan - Verizon,-30,Savings,Utilities & Bills
+2023-08-01,Amusement Park Ticket,-30,Checking,Entertainment
+2023-08-02,Investment Deposit,406,Checking,Savings
+2023-08-03,Spotify Premium,-41,Checking,Entertainment
+2023-08-04,Apple Store,-217,Checking,Shopping & Miscellaneous
+2023-08-04,Emergency Fund Contribution,108,Checking,Savings
+2023-08-04,Heating Bill - GasCompany,-86,Checking,Utilities & Bills
+2023-08-06,Transfer to Savings Account,118,Savings,Savings
+2023-08-07,Investment Deposit,222,Checking,Savings
+2023-08-07,Etsy Handmade Goods,-210,Checking,Shopping & Miscellaneous
+2023-08-07,Local Theatre Play,-70,Savings,Entertainment
+2023-08-07,Retirement Contribution - Vanguard,218,Checking,Savings
+2023-08-07,Water Bill - City Water,-51,Savings,Utilities & Bills
+2023-08-08,Transfer to Savings Account,178,Savings,Savings
+2023-08-09,Mobile Plan - Verizon,-75,Checking,Utilities & Bills
+2023-08-10,Transfer to Savings Account,356,Checking,Savings
+2023-08-10,IKEA Furniture,-72,Savings,Shopping & Miscellaneous
+2023-08-10,Mobile Plan - Verizon,-98,Checking,Utilities & Bills
+2023-08-10,McDonald's,-175,Checking,Groceries & Dining
+2023-08-10,Retirement Contribution - Vanguard,185,Savings,Savings
+2023-08-11,Amazon Purchase,-183,Savings,Shopping & Miscellaneous
+2023-08-11,Target Shopping,-57,Savings,Shopping & Miscellaneous
+2023-08-11,Whole Foods,-275,Savings,Groceries & Dining
+2023-08-12,Walmart Household Supplies,-55,Savings,Shopping & Miscellaneous
+2023-08-13,Uber Eats,-92,Savings,Groceries & Dining
+2023-08-14,Internet Bill - Comcast,-55,Savings,Utilities & Bills
+2023-08-14,Local Farmers Market,-283,Checking,Groceries & Dining
+2023-08-14,Stock Purchase - Robinhood,203,Checking,Savings
+2023-08-15,Nike Shoes,-147,Savings,Shopping & Miscellaneous
+2023-08-15,Investment Deposit,173,Savings,Savings
+2023-08-15,Mobile Plan - Verizon,-79,Savings,Utilities & Bills
+2023-08-17,Amazon Prime Video,-65,Savings,Entertainment
+2023-08-18,Local Boutique Purchase,-107,Savings,Shopping & Miscellaneous
+2023-08-20,Whole Foods,-84,Checking,Groceries & Dining
+2023-08-20,Emergency Fund Contribution,133,Checking,Savings
+2023-08-20,Emergency Fund Contribution,276,Savings,Savings
+2023-08-20,Investment Deposit,459,Checking,Savings
+2023-08-20,Best Buy Electronics,-248,Checking,Shopping & Miscellaneous
+2023-08-20,Retirement Contribution - Vanguard,132,Checking,Savings
+2023-08-23,Electricity Bill - PowerCo,-83,Checking,Utilities & Bills
+2023-08-24,Amusement Park Ticket,-19,Checking,Entertainment
+2023-08-24,Water Bill - City Water,-50,Savings,Utilities & Bills
+2023-08-24,Amusement Park Ticket,-26,Checking,Entertainment
+2023-08-25,Retirement Contribution - Vanguard,414,Checking,Savings
+2023-08-26,Heating Bill - GasCompany,-21,Savings,Utilities & Bills
+2023-08-26,Mobile Plan - Verizon,-89,Savings,Utilities & Bills
+2023-08-26,Walmart Groceries,-185,Savings,Groceries & Dining
+2023-08-27,Mobile Plan - Verizon,-79,Checking,Utilities & Bills
+2023-08-27,Electricity Bill - PowerCo,-79,Checking,Utilities & Bills
+2023-08-28,Transfer to Savings Account,389,Savings,Savings
+2023-08-28,Amazon Prime Video,-67,Savings,Entertainment
+2023-08-29,Salary Payment,3000,Checking,Salary
+2023-08-29,Chipotle,-141,Checking,Groceries & Dining
+2023-08-29,Monthly Rent - Apartment,-1200,Checking,Rent
+2023-08-29,HBO Max Subscription,-38,Savings,Entertainment
+2023-08-30,Transfer to Savings Account,203,Checking,Savings
+2023-08-30,Local Farmers Market,-241,Savings,Groceries & Dining
+2023-08-30,Electricity Bill - PowerCo,-97,Savings,Utilities & Bills
+2023-09-01,Trader Joe's,-196,Checking,Groceries & Dining
+2023-09-02,Sephora Makeup,-208,Checking,Shopping & Miscellaneous
+2023-09-03,Walmart Household Supplies,-165,Savings,Shopping & Miscellaneous
+2023-09-03,Trader Joe's,-215,Checking,Groceries & Dining
+2023-09-06,Local Boutique Purchase,-187,Checking,Shopping & Miscellaneous
+2023-09-06,Best Buy Electronics,-245,Savings,Shopping & Miscellaneous
+2023-09-07,Movie Night - AMC Theatres,-64,Checking,Entertainment
+2023-09-08,Movie Night - AMC Theatres,-37,Savings,Entertainment
+2023-09-09,Whole Foods,-121,Savings,Groceries & Dining
+2023-09-12,McDonald's,-168,Savings,Groceries & Dining
+2023-09-14,Walmart Household Supplies,-89,Savings,Shopping & Miscellaneous
+2023-09-14,Internet Bill - Comcast,-94,Checking,Utilities & Bills
+2023-09-15,Stock Purchase - Robinhood,393,Savings,Savings
+2023-09-16,Amazon Purchase,-153,Savings,Shopping & Miscellaneous
+2023-09-16,Local Theatre Play,-65,Checking,Entertainment
+2023-09-19,McDonald's,-206,Checking,Groceries & Dining
+2023-09-20,Walmart Household Supplies,-109,Savings,Shopping & Miscellaneous
+2023-09-20,Zara Clothing,-129,Checking,Shopping & Miscellaneous
+2023-09-20,Uber Eats,-109,Checking,Groceries & Dining
+2023-09-21,Stock Purchase - Robinhood,169,Savings,Savings
+2023-09-21,Starbucks Coffee,-177,Checking,Groceries & Dining
+2023-09-22,Stock Purchase - Robinhood,111,Savings,Savings
+2023-09-22,Domino's Pizza,-83,Savings,Groceries & Dining
+2023-09-23,Best Buy Electronics,-49,Checking,Shopping & Miscellaneous
+2023-09-23,Water Bill - City Water,-35,Checking,Utilities & Bills
+2023-09-24,Sephora Makeup,-186,Checking,Shopping & Miscellaneous
+2023-09-24,Escape Room Experience,-10,Savings,Entertainment
+2023-09-25,Sephora Makeup,-131,Savings,Shopping & Miscellaneous
+2023-09-25,Concert Tickets,-17,Checking,Entertainment
+2023-09-27,Domino's Pizza,-52,Savings,Groceries & Dining
+2023-09-27,Stock Purchase - Robinhood,361,Savings,Savings
+2023-09-28,Monthly Rent - Apartment,-1200,Checking,Rent
+2023-09-28,Walmart Groceries,-234,Savings,Groceries & Dining
+2023-09-28,Salary Payment,3000,Checking,Salary
+2023-09-30,DoorDash,-111,Savings,Groceries & Dining
+2023-10-01,Stock Purchase - Robinhood,164,Savings,Savings
+2023-10-01,Amusement Park Ticket,-68,Checking,Entertainment
+2023-10-02,Walmart Household Supplies,-226,Savings,Shopping & Miscellaneous
+2023-10-04,Target Shopping,-198,Checking,Shopping & Miscellaneous
+2023-10-04,Internet Bill - Comcast,-39,Savings,Utilities & Bills
+2023-10-05,Nike Shoes,-164,Checking,Shopping & Miscellaneous
+2023-10-05,Chipotle,-146,Savings,Groceries & Dining
+2023-10-05,Etsy Handmade Goods,-206,Checking,Shopping & Miscellaneous
+2023-10-05,Apple Store,-84,Savings,Shopping & Miscellaneous
+2023-10-05,Mobile Plan - Verizon,-59,Checking,Utilities & Bills
+2023-10-07,Spotify Premium,-56,Savings,Entertainment
+2023-10-07,Local Boutique Purchase,-156,Checking,Shopping & Miscellaneous
+2023-10-07,Movie Night - AMC Theatres,-70,Checking,Entertainment
+2023-10-08,IKEA Furniture,-250,Checking,Shopping & Miscellaneous
+2023-10-09,Trader Joe's,-100,Savings,Groceries & Dining
+2023-10-09,Local Farmers Market,-123,Savings,Groceries & Dining
+2023-10-09,Mobile Plan - Verizon,-42,Savings,Utilities & Bills
+2023-10-11,Movie Night - AMC Theatres,-54,Savings,Entertainment
+2023-10-11,Mobile Plan - Verizon,-69,Checking,Utilities & Bills
+2023-10-12,Transfer to Savings Account,226,Savings,Savings
+2023-10-15,DoorDash,-276,Checking,Groceries & Dining
+2023-10-16,Retirement Contribution - Vanguard,188,Savings,Savings
+2023-10-18,Walmart Groceries,-242,Savings,Groceries & Dining
+2023-10-19,Best Buy Electronics,-161,Checking,Shopping & Miscellaneous
+2023-10-20,Retirement Contribution - Vanguard,163,Checking,Savings
+2023-10-20,Transfer to Savings Account,296,Savings,Savings
+2023-10-21,Amusement Park Ticket,-41,Savings,Entertainment
+2023-10-21,Trader Joe's,-137,Savings,Groceries & Dining
+2023-10-21,Zara Clothing,-84,Checking,Shopping & Miscellaneous
+2023-10-23,Nike Shoes,-41,Checking,Shopping & Miscellaneous
+2023-10-23,Escape Room Experience,-19,Checking,Entertainment
+2023-10-25,Starbucks Coffee,-217,Checking,Groceries & Dining
+2023-10-25,Whole Foods,-259,Checking,Groceries & Dining
+2023-10-26,Movie Night - AMC Theatres,-59,Checking,Entertainment
+2023-10-26,Movie Night - AMC Theatres,-35,Savings,Entertainment
+2023-10-27,Investment Deposit,411,Checking,Savings
+2023-10-27,Mobile Plan - Verizon,-88,Savings,Utilities & Bills
+2023-10-27,Starbucks Coffee,-190,Savings,Groceries & Dining
+2023-10-28,Monthly Rent - Apartment,-1200,Checking,Rent
+2023-10-28,Concert Tickets,-27,Checking,Entertainment
+2023-10-28,Salary Payment,3000,Checking,Salary
+2023-10-28,Spotify Premium,-62,Savings,Entertainment
+2023-10-29,Retirement Contribution - Vanguard,423,Savings,Savings
+2023-10-31,Mobile Plan - Verizon,-44,Checking,Utilities & Bills
+2023-11-01,Water Bill - City Water,-52,Savings,Utilities & Bills
+2023-11-01,Transfer to Savings Account,482,Savings,Savings
+2023-11-02,Nike Shoes,-87,Savings,Shopping & Miscellaneous
+2023-11-02,Sephora Makeup,-93,Savings,Shopping & Miscellaneous
+2023-11-02,Netflix Subscription,-61,Checking,Entertainment
+2023-11-03,Netflix Subscription,-57,Checking,Entertainment
+2023-11-03,Target Shopping,-74,Savings,Shopping & Miscellaneous
+2023-11-04,HBO Max Subscription,-55,Checking,Entertainment
+2023-11-05,HBO Max Subscription,-27,Savings,Entertainment
+2023-11-05,Whole Foods,-288,Checking,Groceries & Dining
+2023-11-06,Internet Bill - Comcast,-86,Savings,Utilities & Bills
+2023-11-06,Amusement Park Ticket,-11,Checking,Entertainment
+2023-11-07,Movie Night - AMC Theatres,-11,Savings,Entertainment
+2023-11-11,Trader Joe's,-202,Checking,Groceries & Dining
+2023-11-11,HBO Max Subscription,-24,Savings,Entertainment
+2023-11-13,Retirement Contribution - Vanguard,471,Savings,Savings
+2023-11-14,Fine Dining Restaurant,-297,Checking,Groceries & Dining
+2023-11-14,IKEA Furniture,-208,Checking,Shopping & Miscellaneous
+2023-11-14,Zara Clothing,-32,Checking,Shopping & Miscellaneous
+2023-11-14,Uber Eats,-187,Savings,Groceries & Dining
+2023-11-15,Water Bill - City Water,-82,Savings,Utilities & Bills
+2023-11-15,Electricity Bill - PowerCo,-63,Savings,Utilities & Bills
+2023-11-15,Chipotle,-204,Savings,Groceries & Dining
+2023-11-16,Spotify Premium,-57,Checking,Entertainment
+2023-11-16,Emergency Fund Contribution,478,Savings,Savings
+2023-11-16,Walmart Groceries,-237,Checking,Groceries & Dining
+2023-11-17,Walmart Groceries,-149,Checking,Groceries & Dining
+2023-11-17,Stock Purchase - Robinhood,377,Savings,Savings
+2023-11-18,Mobile Plan - Verizon,-44,Savings,Utilities & Bills
+2023-11-19,Local Theatre Play,-65,Savings,Entertainment
+2023-11-20,Mobile Plan - Verizon,-30,Checking,Utilities & Bills
+2023-11-21,Local Boutique Purchase,-235,Savings,Shopping & Miscellaneous
+2023-11-23,Internet Bill - Comcast,-74,Checking,Utilities & Bills
+2023-11-25,Chipotle,-127,Savings,Groceries & Dining
+2023-11-26,Amazon Prime Video,-46,Savings,Entertainment
+2023-11-26,Local Theatre Play,-36,Savings,Entertainment
+2023-11-27,Monthly Rent - Apartment,-1200,Checking,Rent
+2023-11-27,Fine Dining Restaurant,-83,Savings,Groceries & Dining
+2023-11-27,Fine Dining Restaurant,-291,Checking,Groceries & Dining
+2023-11-27,Salary Payment,3000,Checking,Salary
+2023-11-27,Internet Bill - Comcast,-92,Savings,Utilities & Bills
+2023-11-28,Mobile Plan - Verizon,-94,Savings,Utilities & Bills
+2023-11-28,Water Bill - City Water,-88,Savings,Utilities & Bills
+2023-11-28,Retirement Contribution - Vanguard,107,Checking,Savings
+2023-11-29,Best Buy Electronics,-246,Checking,Shopping & Miscellaneous
+2023-11-30,Investment Deposit,386,Checking,Savings
+2023-11-30,Emergency Fund Contribution,476,Checking,Savings
+2023-11-30,Amusement Park Ticket,-30,Checking,Entertainment
+2023-12-01,Chipotle,-73,Savings,Groceries & Dining
+2023-12-03,Escape Room Experience,-61,Checking,Entertainment
+2023-12-04,Heating Bill - GasCompany,-26,Savings,Utilities & Bills
+2023-12-04,Best Buy Electronics,-135,Checking,Shopping & Miscellaneous
+2023-12-04,Water Bill - City Water,-46,Savings,Utilities & Bills
+2023-12-05,Investment Deposit,279,Checking,Savings
+2023-12-05,Transfer to Savings Account,261,Savings,Savings
+2023-12-05,Starbucks Coffee,-54,Savings,Groceries & Dining
+2023-12-06,Amazon Prime Video,-45,Checking,Entertainment
+2023-12-08,Trader Joe's,-110,Savings,Groceries & Dining
+2023-12-10,Local Theatre Play,-44,Checking,Entertainment
+2023-12-11,Netflix Subscription,-62,Checking,Entertainment
+2023-12-12,Concert Tickets,-68,Checking,Entertainment
+2023-12-13,Retirement Contribution - Vanguard,323,Savings,Savings
+2023-12-13,Amazon Purchase,-139,Checking,Shopping & Miscellaneous
+2023-12-14,Internet Bill - Comcast,-66,Checking,Utilities & Bills
+2023-12-15,Domino's Pizza,-169,Checking,Groceries & Dining
+2023-12-16,Starbucks Coffee,-62,Savings,Groceries & Dining
+2023-12-16,Transfer to Savings Account,219,Checking,Savings
+2023-12-16,Amazon Purchase,-34,Savings,Shopping & Miscellaneous
+2023-12-17,Amazon Purchase,-55,Checking,Shopping & Miscellaneous
+2023-12-20,Sephora Makeup,-82,Savings,Shopping & Miscellaneous
+2023-12-20,Apple Store,-122,Checking,Shopping & Miscellaneous
+2023-12-21,Chipotle,-240,Savings,Groceries & Dining
+2023-12-23,McDonald's,-233,Checking,Groceries & Dining
+2023-12-23,DoorDash,-57,Checking,Groceries & Dining
+2023-12-25,Transfer to Savings Account,359,Checking,Savings
+2023-12-25,Chipotle,-259,Savings,Groceries & Dining
+2023-12-26,Heating Bill - GasCompany,-46,Savings,Utilities & Bills
+2023-12-26,Domino's Pizza,-71,Savings,Groceries & Dining
+2023-12-27,Stock Purchase - Robinhood,317,Savings,Savings
+2023-12-27,Salary Payment,3000,Checking,Salary
+2023-12-27,Electricity Bill - PowerCo,-47,Savings,Utilities & Bills
+2023-12-27,Monthly Rent - Apartment,-1200,Checking,Rent
+2023-12-27,Amazon Purchase,-80,Savings,Shopping & Miscellaneous
+2023-12-28,Best Buy Electronics,-140,Checking,Shopping & Miscellaneous
+2023-12-29,Apple Store,-112,Savings,Shopping & Miscellaneous
+2023-12-29,Etsy Handmade Goods,-190,Checking,Shopping & Miscellaneous
+2023-12-29,Sephora Makeup,-124,Savings,Shopping & Miscellaneous
+2023-12-29,Emergency Fund Contribution,397,Savings,Savings
+2023-12-29,Nike Shoes,-168,Checking,Shopping & Miscellaneous
+2023-12-29,Internet Bill - Comcast,-30,Savings,Utilities & Bills
+2023-12-29,Water Bill - City Water,-89,Savings,Utilities & Bills
+2023-12-31,Walmart Groceries,-194,Checking,Groceries & Dining
+2024-01-01,Transfer to Savings Account,166,Savings,Savings
+2024-01-01,Water Bill - City Water,-69,Checking,Utilities & Bills
+2024-01-02,Stock Purchase - Robinhood,405,Checking,Savings
+2024-01-02,Walmart Groceries,-60,Checking,Groceries & Dining
+2024-01-03,Mobile Plan - Verizon,-82,Checking,Utilities & Bills
+2024-01-04,Electricity Bill - PowerCo,-73,Checking,Utilities & Bills
+2024-01-04,Concert Tickets,-69,Checking,Entertainment
+2024-01-05,Mobile Plan - Verizon,-73,Savings,Utilities & Bills
+2024-01-10,Zara Clothing,-94,Savings,Shopping & Miscellaneous
+2024-01-11,Movie Night - AMC Theatres,-34,Savings,Entertainment
+2024-01-11,McDonald's,-50,Checking,Groceries & Dining
+2024-01-11,Retirement Contribution - Vanguard,128,Checking,Savings
+2024-01-11,Heating Bill - GasCompany,-29,Savings,Utilities & Bills
+2024-01-12,Investment Deposit,269,Savings,Savings
+2024-01-12,Stock Purchase - Robinhood,108,Checking,Savings
+2024-01-13,HBO Max Subscription,-62,Savings,Entertainment
+2024-01-14,Apple Store,-67,Savings,Shopping & Miscellaneous
+2024-01-14,Walmart Groceries,-287,Checking,Groceries & Dining
+2024-01-15,Investment Deposit,446,Savings,Savings
+2024-01-16,Internet Bill - Comcast,-75,Savings,Utilities & Bills
+2024-01-16,Water Bill - City Water,-36,Savings,Utilities & Bills
+2024-01-16,Whole Foods,-53,Savings,Groceries & Dining
+2024-01-17,Sephora Makeup,-153,Checking,Shopping & Miscellaneous
+2024-01-17,Walmart Groceries,-270,Savings,Groceries & Dining
+2024-01-19,Walmart Household Supplies,-184,Savings,Shopping & Miscellaneous
+2024-01-19,Amazon Purchase,-71,Savings,Shopping & Miscellaneous
+2024-01-19,Stock Purchase - Robinhood,467,Checking,Savings
+2024-01-19,Heating Bill - GasCompany,-95,Checking,Utilities & Bills
+2024-01-19,Nike Shoes,-82,Savings,Shopping & Miscellaneous
+2024-01-19,Whole Foods,-153,Savings,Groceries & Dining
+2024-01-20,Etsy Handmade Goods,-234,Checking,Shopping & Miscellaneous
+2024-01-21,Retirement Contribution - Vanguard,463,Checking,Savings
+2024-01-21,Etsy Handmade Goods,-175,Savings,Shopping & Miscellaneous
+2024-01-22,Apple Store,-40,Checking,Shopping & Miscellaneous
+2024-01-22,Heating Bill - GasCompany,-88,Checking,Utilities & Bills
+2024-01-22,Whole Foods,-134,Savings,Groceries & Dining
+2024-01-24,Fine Dining Restaurant,-194,Savings,Groceries & Dining
+2024-01-24,Etsy Handmade Goods,-97,Checking,Shopping & Miscellaneous
+2024-01-25,Investment Deposit,390,Savings,Savings
+2024-01-26,Monthly Rent - Apartment,-1200,Checking,Rent
+2024-01-26,Stock Purchase - Robinhood,282,Savings,Savings
+2024-01-26,Salary Payment,3000,Checking,Salary
+2024-01-27,Stock Purchase - Robinhood,272,Checking,Savings
+2024-01-27,Internet Bill - Comcast,-83,Savings,Utilities & Bills
+2024-01-27,Netflix Subscription,-10,Checking,Entertainment
+2024-01-27,Electricity Bill - PowerCo,-58,Checking,Utilities & Bills
+2024-01-28,Apple Store,-97,Savings,Shopping & Miscellaneous
+2024-01-29,DoorDash,-89,Checking,Groceries & Dining
+2024-01-30,Internet Bill - Comcast,-59,Checking,Utilities & Bills
+2024-01-30,Investment Deposit,407,Checking,Savings
+2024-01-30,Heating Bill - GasCompany,-42,Savings,Utilities & Bills
+2024-01-30,Local Boutique Purchase,-51,Checking,Shopping & Miscellaneous
+2024-01-31,Sephora Makeup,-120,Savings,Shopping & Miscellaneous
+2024-01-31,Retirement Contribution - Vanguard,325,Checking,Savings
+2024-02-01,HBO Max Subscription,-35,Checking,Entertainment
+2024-02-01,Amusement Park Ticket,-34,Savings,Entertainment
+2024-02-02,Local Theatre Play,-18,Checking,Entertainment
+2024-02-02,Netflix Subscription,-26,Savings,Entertainment
+2024-02-02,Mobile Plan - Verizon,-53,Checking,Utilities & Bills
+2024-02-02,Mobile Plan - Verizon,-46,Savings,Utilities & Bills
+2024-02-03,Stock Purchase - Robinhood,343,Savings,Savings
+2024-02-03,Transfer to Savings Account,496,Checking,Savings
+2024-02-04,Concert Tickets,-32,Checking,Entertainment
+2024-02-05,Movie Night - AMC Theatres,-35,Checking,Entertainment
+2024-02-05,Apple Store,-77,Savings,Shopping & Miscellaneous
+2024-02-06,Etsy Handmade Goods,-154,Savings,Shopping & Miscellaneous
+2024-02-06,Amusement Park Ticket,-50,Savings,Entertainment
+2024-02-06,Water Bill - City Water,-90,Checking,Utilities & Bills
+2024-02-06,IKEA Furniture,-180,Savings,Shopping & Miscellaneous
+2024-02-07,Chipotle,-202,Savings,Groceries & Dining
+2024-02-08,Amazon Prime Video,-32,Savings,Entertainment
+2024-02-08,Zara Clothing,-154,Checking,Shopping & Miscellaneous
+2024-02-08,Local Farmers Market,-98,Savings,Groceries & Dining
+2024-02-08,Water Bill - City Water,-38,Savings,Utilities & Bills
+2024-02-09,Zara Clothing,-154,Checking,Shopping & Miscellaneous
+2024-02-11,Investment Deposit,300,Savings,Savings
+2024-02-12,Walmart Household Supplies,-249,Savings,Shopping & Miscellaneous
+2024-02-13,Mobile Plan - Verizon,-44,Savings,Utilities & Bills
+2024-02-13,Heating Bill - GasCompany,-52,Savings,Utilities & Bills
+2024-02-14,Amazon Prime Video,-67,Savings,Entertainment
+2024-02-14,Retirement Contribution - Vanguard,499,Savings,Savings
+2024-02-14,Transfer to Savings Account,321,Checking,Savings
+2024-02-17,Amazon Prime Video,-44,Savings,Entertainment
+2024-02-18,Trader Joe's,-154,Checking,Groceries & Dining
+2024-02-18,Local Farmers Market,-183,Checking,Groceries & Dining
+2024-02-18,Retirement Contribution - Vanguard,314,Checking,Savings
+2024-02-18,Investment Deposit,119,Savings,Savings
+2024-02-19,Water Bill - City Water,-28,Savings,Utilities & Bills
+2024-02-19,Mobile Plan - Verizon,-82,Checking,Utilities & Bills
+2024-02-20,Escape Room Experience,-48,Checking,Entertainment
+2024-02-21,Best Buy Electronics,-141,Checking,Shopping & Miscellaneous
+2024-02-22,Water Bill - City Water,-100,Savings,Utilities & Bills
+2024-02-22,Electricity Bill - PowerCo,-54,Checking,Utilities & Bills
+2024-02-22,Amazon Purchase,-51,Checking,Shopping & Miscellaneous
+2024-02-23,IKEA Furniture,-54,Savings,Shopping & Miscellaneous
+2024-02-24,Stock Purchase - Robinhood,365,Savings,Savings
+2024-02-24,DoorDash,-171,Savings,Groceries & Dining
+2024-02-25,Concert Tickets,-11,Savings,Entertainment
+2024-02-25,Investment Deposit,203,Savings,Savings
+2024-02-25,Mobile Plan - Verizon,-42,Checking,Utilities & Bills
+2024-02-25,Monthly Rent - Apartment,-1200,Checking,Rent
+2024-02-25,Amusement Park Ticket,-40,Savings,Entertainment
+2024-02-25,Salary Payment,3000,Checking,Salary
+2024-02-26,Water Bill - City Water,-79,Checking,Utilities & Bills
+2024-02-27,Zara Clothing,-146,Checking,Shopping & Miscellaneous
+2024-02-28,Stock Purchase - Robinhood,196,Checking,Savings
+2024-02-29,Retirement Contribution - Vanguard,412,Checking,Savings
+2024-03-01,Amusement Park Ticket,-31,Checking,Entertainment
+2024-03-01,Movie Night - AMC Theatres,-50,Checking,Entertainment
+2024-03-01,Emergency Fund Contribution,393,Checking,Savings
+2024-03-01,DoorDash,-293,Checking,Groceries & Dining
+2024-03-02,Etsy Handmade Goods,-137,Savings,Shopping & Miscellaneous
+2024-03-02,Investment Deposit,370,Savings,Savings
+2024-03-03,Stock Purchase - Robinhood,282,Savings,Savings
+2024-03-03,Escape Room Experience,-41,Checking,Entertainment
+2024-03-03,Internet Bill - Comcast,-31,Checking,Utilities & Bills
+2024-03-03,Electricity Bill - PowerCo,-38,Savings,Utilities & Bills
+2024-03-04,Local Farmers Market,-263,Checking,Groceries & Dining
+2024-03-05,DoorDash,-240,Savings,Groceries & Dining
+2024-03-05,Whole Foods,-256,Checking,Groceries & Dining
+2024-03-06,Target Shopping,-157,Checking,Shopping & Miscellaneous
+2024-03-07,Local Boutique Purchase,-47,Checking,Shopping & Miscellaneous
+2024-03-07,Movie Night - AMC Theatres,-69,Savings,Entertainment
+2024-03-08,Stock Purchase - Robinhood,330,Checking,Savings
+2024-03-08,Heating Bill - GasCompany,-21,Checking,Utilities & Bills
+2024-03-08,Zara Clothing,-100,Checking,Shopping & Miscellaneous
+2024-03-08,Water Bill - City Water,-98,Checking,Utilities & Bills
+2024-03-09,Heating Bill - GasCompany,-56,Savings,Utilities & Bills
+2024-03-10,Amazon Prime Video,-51,Savings,Entertainment
+2024-03-10,Mobile Plan - Verizon,-78,Savings,Utilities & Bills
+2024-03-10,Electricity Bill - PowerCo,-78,Checking,Utilities & Bills
+2024-03-10,Transfer to Savings Account,231,Checking,Savings
+2024-03-11,Trader Joe's,-207,Savings,Groceries & Dining
+2024-03-11,Local Farmers Market,-242,Checking,Groceries & Dining
+2024-03-13,Mobile Plan - Verizon,-83,Checking,Utilities & Bills
+2024-03-13,Emergency Fund Contribution,288,Savings,Savings
+2024-03-14,Water Bill - City Water,-29,Savings,Utilities & Bills
+2024-03-14,Movie Night - AMC Theatres,-19,Savings,Entertainment
+2024-03-14,Movie Night - AMC Theatres,-28,Checking,Entertainment
+2024-03-14,Internet Bill - Comcast,-60,Checking,Utilities & Bills
+2024-03-16,Starbucks Coffee,-192,Checking,Groceries & Dining
+2024-03-16,Water Bill - City Water,-65,Savings,Utilities & Bills
+2024-03-16,Spotify Premium,-38,Savings,Entertainment
+2024-03-17,Local Boutique Purchase,-83,Savings,Shopping & Miscellaneous
+2024-03-18,Mobile Plan - Verizon,-65,Checking,Utilities & Bills
+2024-03-18,Mobile Plan - Verizon,-65,Checking,Utilities & Bills
+2024-03-20,Emergency Fund Contribution,385,Savings,Savings
+2024-03-20,IKEA Furniture,-95,Savings,Shopping & Miscellaneous
+2024-03-22,Transfer to Savings Account,324,Checking,Savings
+2024-03-22,HBO Max Subscription,-26,Savings,Entertainment
+2024-03-22,Zara Clothing,-191,Checking,Shopping & Miscellaneous
+2024-03-22,Retirement Contribution - Vanguard,209,Checking,Savings
+2024-03-22,Electricity Bill - PowerCo,-88,Checking,Utilities & Bills
+2024-03-24,Electricity Bill - PowerCo,-71,Checking,Utilities & Bills
+2024-03-25,Stock Purchase - Robinhood,499,Savings,Savings
+2024-03-25,Retirement Contribution - Vanguard,171,Checking,Savings
+2024-03-25,Heating Bill - GasCompany,-33,Checking,Utilities & Bills
+2024-03-26,Sephora Makeup,-117,Checking,Shopping & Miscellaneous
+2024-03-26,Monthly Rent - Apartment,-1200,Checking,Rent
+2024-03-26,Salary Payment,3000,Checking,Salary
+2024-03-27,Heating Bill - GasCompany,-86,Savings,Utilities & Bills
+2024-03-27,Electricity Bill - PowerCo,-55,Checking,Utilities & Bills
+2024-03-27,Electricity Bill - PowerCo,-35,Savings,Utilities & Bills
+2024-03-28,Zara Clothing,-49,Savings,Shopping & Miscellaneous
+2024-03-28,Escape Room Experience,-44,Checking,Entertainment
+2024-03-28,Amazon Purchase,-214,Checking,Shopping & Miscellaneous
+2024-03-29,Heating Bill - GasCompany,-35,Savings,Utilities & Bills
+2024-03-29,Domino's Pizza,-101,Checking,Groceries & Dining
+2024-03-29,Nike Shoes,-41,Savings,Shopping & Miscellaneous
+2024-03-30,Trader Joe's,-217,Checking,Groceries & Dining
+2024-04-01,Zara Clothing,-31,Checking,Shopping & Miscellaneous
+2024-04-02,Amusement Park Ticket,-52,Savings,Entertainment
+2024-04-02,Internet Bill - Comcast,-57,Checking,Utilities & Bills
+2024-04-03,Nike Shoes,-135,Savings,Shopping & Miscellaneous
+2024-04-03,Movie Night - AMC Theatres,-12,Checking,Entertainment
+2024-04-03,Spotify Premium,-52,Checking,Entertainment
+2024-04-04,Trader Joe's,-218,Savings,Groceries & Dining
+2024-04-05,Sephora Makeup,-125,Savings,Shopping & Miscellaneous
+2024-04-05,Fine Dining Restaurant,-165,Savings,Groceries & Dining
+2024-04-06,HBO Max Subscription,-65,Checking,Entertainment
+2024-04-06,Fine Dining Restaurant,-227,Checking,Groceries & Dining
+2024-04-07,Zara Clothing,-194,Savings,Shopping & Miscellaneous
+2024-04-08,Escape Room Experience,-54,Checking,Entertainment
+2024-04-09,McDonald's,-80,Checking,Groceries & Dining
+2024-04-09,Escape Room Experience,-58,Savings,Entertainment
+2024-04-09,HBO Max Subscription,-27,Savings,Entertainment
+2024-04-09,Walmart Groceries,-195,Checking,Groceries & Dining
+2024-04-10,Electricity Bill - PowerCo,-93,Savings,Utilities & Bills
+2024-04-12,McDonald's,-167,Savings,Groceries & Dining
+2024-04-12,Trader Joe's,-183,Checking,Groceries & Dining
+2024-04-13,Water Bill - City Water,-72,Checking,Utilities & Bills
+2024-04-13,Concert Tickets,-64,Checking,Entertainment
+2024-04-15,Retirement Contribution - Vanguard,457,Savings,Savings
+2024-04-15,Electricity Bill - PowerCo,-30,Savings,Utilities & Bills
+2024-04-15,Heating Bill - GasCompany,-90,Savings,Utilities & Bills
+2024-04-15,HBO Max Subscription,-38,Savings,Entertainment
+2024-04-15,Heating Bill - GasCompany,-68,Checking,Utilities & Bills
+2024-04-16,Concert Tickets,-25,Savings,Entertainment
+2024-04-16,Local Theatre Play,-49,Savings,Entertainment
+2024-04-17,Emergency Fund Contribution,385,Savings,Savings
+2024-04-17,Fine Dining Restaurant,-182,Savings,Groceries & Dining
+2024-04-19,McDonald's,-92,Checking,Groceries & Dining
+2024-04-19,Local Theatre Play,-60,Checking,Entertainment
+2024-04-20,Transfer to Savings Account,161,Checking,Savings
+2024-04-20,Amazon Purchase,-213,Checking,Shopping & Miscellaneous
+2024-04-20,HBO Max Subscription,-12,Savings,Entertainment
+2024-04-23,Heating Bill - GasCompany,-90,Savings,Utilities & Bills
+2024-04-24,McDonald's,-199,Savings,Groceries & Dining
+2024-04-25,Zara Clothing,-165,Checking,Shopping & Miscellaneous
+2024-04-25,Salary Payment,3000,Checking,Salary
+2024-04-25,Monthly Rent - Apartment,-1200,Checking,Rent
+2024-04-26,HBO Max Subscription,-30,Checking,Entertainment
+2024-04-27,Mobile Plan - Verizon,-45,Savings,Utilities & Bills
+2024-04-28,Concert Tickets,-40,Savings,Entertainment
+2024-04-30,HBO Max Subscription,-59,Savings,Entertainment
+2024-04-30,Retirement Contribution - Vanguard,245,Checking,Savings
+2024-05-01,HBO Max Subscription,-24,Savings,Entertainment
+2024-05-02,Electricity Bill - PowerCo,-44,Checking,Utilities & Bills
+2024-05-03,Retirement Contribution - Vanguard,485,Savings,Savings
+2024-05-03,Trader Joe's,-118,Checking,Groceries & Dining
+2024-05-03,Internet Bill - Comcast,-98,Savings,Utilities & Bills
+2024-05-03,Internet Bill - Comcast,-45,Savings,Utilities & Bills
+2024-05-04,Stock Purchase - Robinhood,227,Checking,Savings
+2024-05-06,Water Bill - City Water,-41,Checking,Utilities & Bills
+2024-05-07,HBO Max Subscription,-43,Checking,Entertainment
+2024-05-08,Fine Dining Restaurant,-260,Checking,Groceries & Dining
+2024-05-08,Spotify Premium,-41,Savings,Entertainment
+2024-05-10,Trader Joe's,-275,Savings,Groceries & Dining
+2024-05-10,Whole Foods,-68,Checking,Groceries & Dining
+2024-05-11,Local Boutique Purchase,-231,Checking,Shopping & Miscellaneous
+2024-05-12,Transfer to Savings Account,178,Checking,Savings
+2024-05-12,Uber Eats,-133,Savings,Groceries & Dining
+2024-05-12,Stock Purchase - Robinhood,320,Savings,Savings
+2024-05-13,Fine Dining Restaurant,-262,Savings,Groceries & Dining
+2024-05-14,Uber Eats,-150,Checking,Groceries & Dining
+2024-05-15,Electricity Bill - PowerCo,-47,Savings,Utilities & Bills
+2024-05-15,Movie Night - AMC Theatres,-67,Savings,Entertainment
+2024-05-16,Netflix Subscription,-60,Checking,Entertainment
+2024-05-16,Chipotle,-113,Savings,Groceries & Dining
+2024-05-17,Retirement Contribution - Vanguard,140,Savings,Savings
+2024-05-18,Transfer to Savings Account,168,Checking,Savings
+2024-05-19,Mobile Plan - Verizon,-74,Savings,Utilities & Bills
+2024-05-19,McDonald's,-228,Checking,Groceries & Dining
+2024-05-19,Amazon Prime Video,-68,Checking,Entertainment
+2024-05-20,Amazon Prime Video,-24,Savings,Entertainment
+2024-05-20,Apple Store,-239,Checking,Shopping & Miscellaneous
+2024-05-20,DoorDash,-260,Savings,Groceries & Dining
+2024-05-20,Internet Bill - Comcast,-41,Savings,Utilities & Bills
+2024-05-20,Emergency Fund Contribution,257,Savings,Savings
+2024-05-22,Local Theatre Play,-54,Checking,Entertainment
+2024-05-22,Stock Purchase - Robinhood,330,Savings,Savings
+2024-05-22,Movie Night - AMC Theatres,-31,Savings,Entertainment
+2024-05-23,Walmart Groceries,-112,Savings,Groceries & Dining
+2024-05-23,Chipotle,-55,Savings,Groceries & Dining
+2024-05-23,Amazon Prime Video,-46,Checking,Entertainment
+2024-05-24,Spotify Premium,-46,Savings,Entertainment
+2024-05-24,HBO Max Subscription,-45,Checking,Entertainment
+2024-05-25,Monthly Rent - Apartment,-1200,Checking,Rent
+2024-05-25,Salary Payment,3000,Checking,Salary
+2024-05-26,Emergency Fund Contribution,110,Checking,Savings
+2024-05-28,Water Bill - City Water,-47,Checking,Utilities & Bills
+2024-05-30,Amusement Park Ticket,-32,Checking,Entertainment
+2024-05-31,Retirement Contribution - Vanguard,114,Checking,Savings
+2024-06-02,Local Boutique Purchase,-193,Savings,Shopping & Miscellaneous
+2024-06-02,Chipotle,-153,Checking,Groceries & Dining
+2024-06-02,Electricity Bill - PowerCo,-89,Checking,Utilities & Bills
+2024-06-03,Trader Joe's,-208,Checking,Groceries & Dining
+2024-06-04,Retirement Contribution - Vanguard,192,Checking,Savings
+2024-06-05,Heating Bill - GasCompany,-59,Savings,Utilities & Bills
+2024-06-05,Local Farmers Market,-154,Savings,Groceries & Dining
+2024-06-05,Heating Bill - GasCompany,-90,Checking,Utilities & Bills
+2024-06-06,Transfer to Savings Account,357,Savings,Savings
+2024-06-06,Internet Bill - Comcast,-38,Checking,Utilities & Bills
+2024-06-06,Emergency Fund Contribution,231,Checking,Savings
+2024-06-08,Starbucks Coffee,-55,Savings,Groceries & Dining
+2024-06-10,Walmart Groceries,-63,Checking,Groceries & Dining
+2024-06-10,Escape Room Experience,-21,Checking,Entertainment
+2024-06-10,Spotify Premium,-16,Checking,Entertainment
+2024-06-11,Emergency Fund Contribution,399,Checking,Savings
+2024-06-12,Emergency Fund Contribution,408,Savings,Savings
+2024-06-12,Transfer to Savings Account,375,Checking,Savings
+2024-06-12,HBO Max Subscription,-23,Savings,Entertainment
+2024-06-14,Water Bill - City Water,-53,Checking,Utilities & Bills
+2024-06-14,Amazon Purchase,-247,Savings,Shopping & Miscellaneous
+2024-06-14,Local Boutique Purchase,-174,Savings,Shopping & Miscellaneous
+2024-06-15,Movie Night - AMC Theatres,-13,Savings,Entertainment
+2024-06-15,Amusement Park Ticket,-14,Savings,Entertainment
+2024-06-15,Transfer to Savings Account,370,Savings,Savings
+2024-06-15,Heating Bill - GasCompany,-55,Checking,Utilities & Bills
+2024-06-16,Local Farmers Market,-64,Savings,Groceries & Dining
+2024-06-18,Etsy Handmade Goods,-136,Checking,Shopping & Miscellaneous
+2024-06-18,Local Farmers Market,-84,Savings,Groceries & Dining
+2024-06-19,Sephora Makeup,-56,Savings,Shopping & Miscellaneous
+2024-06-19,Retirement Contribution - Vanguard,192,Checking,Savings
+2024-06-19,Mobile Plan - Verizon,-59,Savings,Utilities & Bills
+2024-06-20,Transfer to Savings Account,355,Checking,Savings
+2024-06-20,Investment Deposit,442,Checking,Savings
+2024-06-20,Concert Tickets,-25,Savings,Entertainment
+2024-06-20,Internet Bill - Comcast,-85,Checking,Utilities & Bills
+2024-06-21,Nike Shoes,-208,Savings,Shopping & Miscellaneous
+2024-06-21,Retirement Contribution - Vanguard,259,Savings,Savings
+2024-06-22,Retirement Contribution - Vanguard,483,Checking,Savings
+2024-06-23,Water Bill - City Water,-39,Checking,Utilities & Bills
+2024-06-23,Investment Deposit,477,Savings,Savings
+2024-06-24,Etsy Handmade Goods,-40,Checking,Shopping & Miscellaneous
+2024-06-24,Monthly Rent - Apartment,-1200,Checking,Rent
+2024-06-24,Salary Payment,3000,Checking,Salary
+2024-06-25,Etsy Handmade Goods,-67,Savings,Shopping & Miscellaneous
+2024-06-26,Whole Foods,-255,Checking,Groceries & Dining
+2024-06-26,Water Bill - City Water,-22,Checking,Utilities & Bills
+2024-06-27,DoorDash,-78,Savings,Groceries & Dining
+2024-06-29,Amazon Prime Video,-15,Checking,Entertainment
+2024-06-30,HBO Max Subscription,-62,Checking,Entertainment
+2024-06-30,Chipotle,-113,Savings,Groceries & Dining
+2024-07-01,Zara Clothing,-182,Savings,Shopping & Miscellaneous
+2024-07-02,McDonald's,-181,Checking,Groceries & Dining
+2024-07-02,Walmart Household Supplies,-198,Savings,Shopping & Miscellaneous
+2024-07-06,Amazon Prime Video,-21,Savings,Entertainment
+2024-07-06,Heating Bill - GasCompany,-40,Savings,Utilities & Bills
+2024-07-06,Internet Bill - Comcast,-82,Savings,Utilities & Bills
+2024-07-07,Apple Store,-204,Savings,Shopping & Miscellaneous
+2024-07-07,IKEA Furniture,-70,Savings,Shopping & Miscellaneous
+2024-07-08,IKEA Furniture,-36,Savings,Shopping & Miscellaneous
+2024-07-09,Starbucks Coffee,-240,Savings,Groceries & Dining
+2024-07-09,Trader Joe's,-77,Savings,Groceries & Dining
+2024-07-10,Water Bill - City Water,-80,Savings,Utilities & Bills
+2024-07-10,Transfer to Savings Account,132,Savings,Savings
+2024-07-12,McDonald's,-90,Checking,Groceries & Dining
+2024-07-12,Trader Joe's,-133,Savings,Groceries & Dining
+2024-07-12,Uber Eats,-281,Checking,Groceries & Dining
+2024-07-13,McDonald's,-127,Savings,Groceries & Dining
+2024-07-13,Local Farmers Market,-239,Savings,Groceries & Dining
+2024-07-13,Internet Bill - Comcast,-87,Checking,Utilities & Bills
+2024-07-14,Walmart Groceries,-152,Checking,Groceries & Dining
+2024-07-16,Zara Clothing,-37,Checking,Shopping & Miscellaneous
+2024-07-16,Retirement Contribution - Vanguard,278,Savings,Savings
+2024-07-16,Mobile Plan - Verizon,-77,Savings,Utilities & Bills
+2024-07-16,Retirement Contribution - Vanguard,458,Checking,Savings
+2024-07-17,Walmart Groceries,-137,Savings,Groceries & Dining
+2024-07-18,Emergency Fund Contribution,464,Savings,Savings
+2024-07-18,Mobile Plan - Verizon,-89,Savings,Utilities & Bills
+2024-07-19,Local Theatre Play,-15,Checking,Entertainment
+2024-07-19,Escape Room Experience,-10,Savings,Entertainment
+2024-07-20,Amusement Park Ticket,-43,Savings,Entertainment
+2024-07-20,Walmart Groceries,-229,Checking,Groceries & Dining
+2024-07-23,Transfer to Savings Account,319,Savings,Savings
+2024-07-23,Local Boutique Purchase,-123,Checking,Shopping & Miscellaneous
+2024-07-23,Electricity Bill - PowerCo,-25,Checking,Utilities & Bills
+2024-07-24,Salary Payment,3000,Checking,Salary
+2024-07-24,Monthly Rent - Apartment,-1200,Checking,Rent
+2024-07-26,Whole Foods,-68,Savings,Groceries & Dining
+2024-07-26,Investment Deposit,332,Savings,Savings
+2024-07-27,Retirement Contribution - Vanguard,102,Savings,Savings
+2024-07-27,Amusement Park Ticket,-68,Checking,Entertainment
+2024-07-27,Concert Tickets,-21,Checking,Entertainment
+2024-07-27,Heating Bill - GasCompany,-77,Savings,Utilities & Bills
+2024-07-28,Emergency Fund Contribution,204,Checking,Savings
+2024-07-30,Trader Joe's,-214,Savings,Groceries & Dining
+2024-07-31,Escape Room Experience,-69,Savings,Entertainment
+2024-07-31,Best Buy Electronics,-56,Checking,Shopping & Miscellaneous
+2024-07-31,Trader Joe's,-142,Checking,Groceries & Dining
+2024-07-31,McDonald's,-105,Checking,Groceries & Dining
+2024-08-01,HBO Max Subscription,-64,Savings,Entertainment
+2024-08-01,Mobile Plan - Verizon,-51,Checking,Utilities & Bills
+2024-08-02,Chipotle,-244,Checking,Groceries & Dining
+2024-08-03,Emergency Fund Contribution,445,Savings,Savings
+2024-08-03,Local Farmers Market,-116,Checking,Groceries & Dining
+2024-08-04,Electricity Bill - PowerCo,-56,Savings,Utilities & Bills
+2024-08-04,Emergency Fund Contribution,188,Savings,Savings
+2024-08-05,Zara Clothing,-71,Checking,Shopping & Miscellaneous
+2024-08-06,Netflix Subscription,-45,Savings,Entertainment
+2024-08-09,Local Theatre Play,-28,Savings,Entertainment
+2024-08-10,Transfer to Savings Account,485,Savings,Savings
+2024-08-10,Investment Deposit,394,Checking,Savings
+2024-08-11,Electricity Bill - PowerCo,-53,Savings,Utilities & Bills
+2024-08-12,Electricity Bill - PowerCo,-100,Savings,Utilities & Bills
+2024-08-12,Electricity Bill - PowerCo,-81,Checking,Utilities & Bills
+2024-08-12,Local Theatre Play,-53,Savings,Entertainment
+2024-08-12,Water Bill - City Water,-84,Savings,Utilities & Bills
+2024-08-13,Stock Purchase - Robinhood,362,Savings,Savings
+2024-08-13,Target Shopping,-122,Savings,Shopping & Miscellaneous
+2024-08-13,Water Bill - City Water,-23,Savings,Utilities & Bills
+2024-08-13,Whole Foods,-232,Savings,Groceries & Dining
+2024-08-13,Water Bill - City Water,-43,Checking,Utilities & Bills
+2024-08-14,Water Bill - City Water,-31,Savings,Utilities & Bills
+2024-08-16,Nike Shoes,-181,Checking,Shopping & Miscellaneous
+2024-08-17,Best Buy Electronics,-107,Checking,Shopping & Miscellaneous
+2024-08-17,Electricity Bill - PowerCo,-22,Checking,Utilities & Bills
+2024-08-19,Best Buy Electronics,-212,Savings,Shopping & Miscellaneous
+2024-08-20,Stock Purchase - Robinhood,393,Checking,Savings
+2024-08-22,Mobile Plan - Verizon,-56,Savings,Utilities & Bills
+2024-08-22,McDonald's,-87,Checking,Groceries & Dining
+2024-08-23,Retirement Contribution - Vanguard,201,Savings,Savings
+2024-08-23,Transfer to Savings Account,137,Savings,Savings
+2024-08-23,Monthly Rent - Apartment,-1200,Checking,Rent
+2024-08-23,Salary Payment,3000,Checking,Salary
+2024-08-25,Fine Dining Restaurant,-299,Savings,Groceries & Dining
+2024-08-25,Domino's Pizza,-196,Savings,Groceries & Dining
+2024-08-26,Amazon Prime Video,-62,Checking,Entertainment
+2024-08-26,Internet Bill - Comcast,-81,Checking,Utilities & Bills
+2024-08-27,Walmart Household Supplies,-218,Checking,Shopping & Miscellaneous
+2024-08-27,Amazon Prime Video,-46,Checking,Entertainment
+2024-08-27,Heating Bill - GasCompany,-25,Checking,Utilities & Bills
+2024-08-28,Electricity Bill - PowerCo,-26,Checking,Utilities & Bills
+2024-08-29,Internet Bill - Comcast,-21,Savings,Utilities & Bills
+2024-08-29,Transfer to Savings Account,398,Checking,Savings
+2024-08-29,McDonald's,-262,Checking,Groceries & Dining
+2024-08-29,Netflix Subscription,-53,Checking,Entertainment
+2024-08-30,Transfer to Savings Account,333,Savings,Savings
+2024-08-30,McDonald's,-185,Checking,Groceries & Dining
+2024-08-30,Fine Dining Restaurant,-105,Checking,Groceries & Dining
+2024-08-30,DoorDash,-195,Savings,Groceries & Dining
+2024-09-02,Stock Purchase - Robinhood,459,Checking,Savings
+2024-09-03,Electricity Bill - PowerCo,-84,Savings,Utilities & Bills
+2024-09-03,Internet Bill - Comcast,-29,Checking,Utilities & Bills
+2024-09-04,IKEA Furniture,-106,Savings,Shopping & Miscellaneous
+2024-09-05,Retirement Contribution - Vanguard,371,Checking,Savings
+2024-09-06,Amazon Purchase,-156,Checking,Shopping & Miscellaneous
+2024-09-06,McDonald's,-90,Savings,Groceries & Dining
+2024-09-07,Starbucks Coffee,-88,Checking,Groceries & Dining
+2024-09-07,DoorDash,-283,Checking,Groceries & Dining
+2024-09-07,Transfer to Savings Account,500,Checking,Savings
+2024-09-07,Transfer to Savings Account,385,Checking,Savings
+2024-09-08,Water Bill - City Water,-61,Savings,Utilities & Bills
+2024-09-08,Whole Foods,-182,Savings,Groceries & Dining
+2024-09-10,Local Farmers Market,-174,Savings,Groceries & Dining
+2024-09-11,Netflix Subscription,-22,Savings,Entertainment
+2024-09-12,Investment Deposit,162,Checking,Savings
+2024-09-12,McDonald's,-191,Checking,Groceries & Dining
+2024-09-14,Heating Bill - GasCompany,-36,Checking,Utilities & Bills
+2024-09-14,Etsy Handmade Goods,-63,Checking,Shopping & Miscellaneous
+2024-09-15,Internet Bill - Comcast,-43,Checking,Utilities & Bills
+2024-09-15,Amusement Park Ticket,-19,Checking,Entertainment
+2024-09-15,Target Shopping,-211,Checking,Shopping & Miscellaneous
+2024-09-16,Netflix Subscription,-47,Savings,Entertainment
+2024-09-17,HBO Max Subscription,-21,Savings,Entertainment
+2024-09-18,Stock Purchase - Robinhood,356,Savings,Savings
+2024-09-19,Heating Bill - GasCompany,-97,Savings,Utilities & Bills
+2024-09-19,Electricity Bill - PowerCo,-48,Checking,Utilities & Bills
+2024-09-19,McDonald's,-67,Checking,Groceries & Dining
+2024-09-19,Heating Bill - GasCompany,-26,Checking,Utilities & Bills
+2024-09-20,Local Theatre Play,-43,Savings,Entertainment
+2024-09-20,Internet Bill - Comcast,-39,Savings,Utilities & Bills
+2024-09-21,Spotify Premium,-54,Checking,Entertainment
+2024-09-21,Movie Night - AMC Theatres,-19,Savings,Entertainment
+2024-09-22,Salary Payment,3000,Checking,Salary
+2024-09-22,Monthly Rent - Apartment,-1200,Checking,Rent
+2024-09-23,Movie Night - AMC Theatres,-55,Checking,Entertainment
+2024-09-23,Amazon Prime Video,-21,Checking,Entertainment
+2024-09-23,Nike Shoes,-206,Savings,Shopping & Miscellaneous
+2024-09-23,Amazon Prime Video,-14,Checking,Entertainment
+2024-09-24,McDonald's,-128,Checking,Groceries & Dining
+2024-09-24,Whole Foods,-270,Checking,Groceries & Dining
+2024-09-24,Domino's Pizza,-171,Savings,Groceries & Dining
+2024-09-25,IKEA Furniture,-43,Checking,Shopping & Miscellaneous
+2024-09-26,Water Bill - City Water,-98,Savings,Utilities & Bills
+2024-09-27,Nike Shoes,-220,Savings,Shopping & Miscellaneous
+2024-09-27,McDonald's,-165,Savings,Groceries & Dining
+2024-09-27,Emergency Fund Contribution,359,Savings,Savings
+2024-09-27,Internet Bill - Comcast,-62,Savings,Utilities & Bills
+2024-09-28,Apple Store,-52,Savings,Shopping & Miscellaneous
+2024-09-28,Starbucks Coffee,-198,Checking,Groceries & Dining
+2024-10-01,Nike Shoes,-49,Checking,Shopping & Miscellaneous
+2024-10-01,Amazon Purchase,-154,Checking,Shopping & Miscellaneous
+2024-10-01,Trader Joe's,-261,Checking,Groceries & Dining
+2024-10-03,Transfer to Savings Account,456,Savings,Savings
+2024-10-03,Trader Joe's,-65,Savings,Groceries & Dining
+2024-10-03,Domino's Pizza,-98,Savings,Groceries & Dining
+2024-10-05,Electricity Bill - PowerCo,-71,Savings,Utilities & Bills
+2024-10-06,Retirement Contribution - Vanguard,182,Savings,Savings
+2024-10-07,Target Shopping,-46,Checking,Shopping & Miscellaneous
+2024-10-07,Best Buy Electronics,-53,Savings,Shopping & Miscellaneous
+2024-10-07,Chipotle,-285,Savings,Groceries & Dining
+2024-10-07,Emergency Fund Contribution,197,Checking,Savings
+2024-10-08,Movie Night - AMC Theatres,-35,Savings,Entertainment
+2024-10-08,Retirement Contribution - Vanguard,204,Savings,Savings
+2024-10-09,Fine Dining Restaurant,-258,Savings,Groceries & Dining
+2024-10-09,Local Theatre Play,-12,Checking,Entertainment
+2024-10-12,Netflix Subscription,-60,Checking,Entertainment
+2024-10-12,Netflix Subscription,-22,Checking,Entertainment
+2024-10-14,Amusement Park Ticket,-60,Checking,Entertainment
+2024-10-15,Chipotle,-213,Savings,Groceries & Dining
+2024-10-16,Investment Deposit,352,Savings,Savings
+2024-10-16,Escape Room Experience,-48,Checking,Entertainment
+2024-10-19,Etsy Handmade Goods,-141,Savings,Shopping & Miscellaneous
+2024-10-20,Mobile Plan - Verizon,-93,Checking,Utilities & Bills
+2024-10-21,Mobile Plan - Verizon,-72,Savings,Utilities & Bills
+2024-10-21,Transfer to Savings Account,121,Savings,Savings
+2024-10-22,Retirement Contribution - Vanguard,210,Checking,Savings
+2024-10-22,Monthly Rent - Apartment,-1200,Checking,Rent
+2024-10-22,Uber Eats,-190,Checking,Groceries & Dining
+2024-10-22,Fine Dining Restaurant,-146,Checking,Groceries & Dining
+2024-10-22,Salary Payment,3000,Checking,Salary
+2024-10-23,Netflix Subscription,-12,Checking,Entertainment
+2024-10-23,Chipotle,-277,Checking,Groceries & Dining
+2024-10-25,Trader Joe's,-175,Checking,Groceries & Dining
+2024-10-25,Escape Room Experience,-49,Checking,Entertainment
+2024-10-25,Mobile Plan - Verizon,-82,Checking,Utilities & Bills
+2024-10-26,Local Theatre Play,-58,Checking,Entertainment
+2024-10-26,Mobile Plan - Verizon,-46,Checking,Utilities & Bills
+2024-10-27,Walmart Household Supplies,-163,Savings,Shopping & Miscellaneous
+2024-10-29,Domino's Pizza,-279,Checking,Groceries & Dining
+2024-10-29,Starbucks Coffee,-256,Checking,Groceries & Dining
+2024-10-29,Transfer to Savings Account,258,Checking,Savings
+2024-10-29,Investment Deposit,438,Savings,Savings
+2024-10-29,Transfer to Savings Account,442,Savings,Savings
+2024-10-31,Water Bill - City Water,-55,Checking,Utilities & Bills
+2024-11-01,Heating Bill - GasCompany,-66,Checking,Utilities & Bills
+2024-11-02,Nike Shoes,-189,Savings,Shopping & Miscellaneous
+2024-11-02,Electricity Bill - PowerCo,-52,Savings,Utilities & Bills
+2024-11-04,Best Buy Electronics,-237,Checking,Shopping & Miscellaneous
+2024-11-04,Fine Dining Restaurant,-297,Savings,Groceries & Dining
+2024-11-04,Electricity Bill - PowerCo,-31,Checking,Utilities & Bills
+2024-11-04,Trader Joe's,-173,Savings,Groceries & Dining
+2024-11-06,Internet Bill - Comcast,-75,Checking,Utilities & Bills
+2024-11-06,Sephora Makeup,-227,Savings,Shopping & Miscellaneous
+2024-11-06,Investment Deposit,455,Checking,Savings
+2024-11-07,Apple Store,-226,Checking,Shopping & Miscellaneous
+2024-11-07,Escape Room Experience,-60,Savings,Entertainment
+2024-11-07,Mobile Plan - Verizon,-66,Savings,Utilities & Bills
+2024-11-08,Best Buy Electronics,-35,Checking,Shopping & Miscellaneous
+2024-11-09,Concert Tickets,-56,Savings,Entertainment
+2024-11-09,Electricity Bill - PowerCo,-26,Savings,Utilities & Bills
+2024-11-10,Heating Bill - GasCompany,-90,Savings,Utilities & Bills
+2024-11-10,Electricity Bill - PowerCo,-57,Checking,Utilities & Bills
+2024-11-11,Chipotle,-202,Checking,Groceries & Dining
+2024-11-11,Retirement Contribution - Vanguard,480,Savings,Savings
+2024-11-11,Etsy Handmade Goods,-216,Savings,Shopping & Miscellaneous
+2024-11-11,DoorDash,-81,Checking,Groceries & Dining
+2024-11-12,Escape Room Experience,-55,Checking,Entertainment
+2024-11-12,Heating Bill - GasCompany,-21,Savings,Utilities & Bills
+2024-11-13,Sephora Makeup,-53,Checking,Shopping & Miscellaneous
+2024-11-15,IKEA Furniture,-168,Checking,Shopping & Miscellaneous
+2024-11-15,Netflix Subscription,-63,Checking,Entertainment
+2024-11-15,Retirement Contribution - Vanguard,337,Savings,Savings
+2024-11-15,Etsy Handmade Goods,-138,Savings,Shopping & Miscellaneous
+2024-11-16,Electricity Bill - PowerCo,-64,Checking,Utilities & Bills
+2024-11-16,Apple Store,-230,Checking,Shopping & Miscellaneous
+2024-11-16,Electricity Bill - PowerCo,-38,Savings,Utilities & Bills
+2024-11-16,Escape Room Experience,-33,Checking,Entertainment
+2024-11-17,Concert Tickets,-42,Savings,Entertainment
+2024-11-18,Amusement Park Ticket,-28,Savings,Entertainment
+2024-11-19,Investment Deposit,374,Checking,Savings
+2024-11-20,Apple Store,-60,Savings,Shopping & Miscellaneous
+2024-11-20,Target Shopping,-130,Savings,Shopping & Miscellaneous
+2024-11-20,Water Bill - City Water,-20,Checking,Utilities & Bills
+2024-11-20,Internet Bill - Comcast,-59,Checking,Utilities & Bills
+2024-11-21,Salary Payment,3000,Checking,Salary
+2024-11-21,Electricity Bill - PowerCo,-23,Checking,Utilities & Bills
+2024-11-21,Monthly Rent - Apartment,-1200,Checking,Rent
+2024-11-21,Spotify Premium,-12,Savings,Entertainment
+2024-11-23,Stock Purchase - Robinhood,207,Checking,Savings
+2024-11-24,Apple Store,-55,Savings,Shopping & Miscellaneous
+2024-11-25,Stock Purchase - Robinhood,413,Savings,Savings
+2024-11-25,Water Bill - City Water,-78,Savings,Utilities & Bills
+2024-11-27,Retirement Contribution - Vanguard,106,Savings,Savings
+2024-11-27,Concert Tickets,-43,Savings,Entertainment
+2024-11-29,Transfer to Savings Account,458,Checking,Savings
+2024-11-30,Movie Night - AMC Theatres,-69,Checking,Entertainment
+2024-11-30,Retirement Contribution - Vanguard,338,Savings,Savings
+2024-11-30,Starbucks Coffee,-65,Savings,Groceries & Dining
+2024-11-30,Nike Shoes,-164,Savings,Shopping & Miscellaneous
+2024-12-01,Local Theatre Play,-41,Checking,Entertainment
+2024-12-01,Water Bill - City Water,-37,Checking,Utilities & Bills
+2024-12-02,Concert Tickets,-27,Savings,Entertainment
+2024-12-06,Emergency Fund Contribution,310,Checking,Savings
+2024-12-06,Transfer to Savings Account,196,Savings,Savings
+2024-12-08,Internet Bill - Comcast,-41,Savings,Utilities & Bills
+2024-12-08,Starbucks Coffee,-90,Savings,Groceries & Dining
+2024-12-09,Target Shopping,-242,Savings,Shopping & Miscellaneous
+2024-12-09,Sephora Makeup,-63,Checking,Shopping & Miscellaneous
+2024-12-09,Amazon Purchase,-122,Checking,Shopping & Miscellaneous
+2024-12-09,Starbucks Coffee,-249,Savings,Groceries & Dining
+2024-12-09,Starbucks Coffee,-276,Savings,Groceries & Dining
+2024-12-10,Transfer to Savings Account,450,Savings,Savings
+2024-12-11,Escape Room Experience,-17,Savings,Entertainment
+2024-12-12,Electricity Bill - PowerCo,-61,Checking,Utilities & Bills
+2024-12-13,Electricity Bill - PowerCo,-88,Savings,Utilities & Bills
+2024-12-13,Amazon Purchase,-43,Savings,Shopping & Miscellaneous
+2024-12-14,Trader Joe's,-85,Checking,Groceries & Dining
+2024-12-14,Fine Dining Restaurant,-205,Checking,Groceries & Dining
+2024-12-15,Local Boutique Purchase,-40,Checking,Shopping & Miscellaneous
+2024-12-15,Netflix Subscription,-22,Savings,Entertainment
+2024-12-15,Netflix Subscription,-64,Savings,Entertainment
+2024-12-15,Retirement Contribution - Vanguard,337,Checking,Savings
+2024-12-16,Uber Eats,-143,Savings,Groceries & Dining
+2024-12-16,Heating Bill - GasCompany,-26,Checking,Utilities & Bills
+2024-12-17,Water Bill - City Water,-94,Savings,Utilities & Bills
+2024-12-18,Transfer to Savings Account,285,Savings,Savings
+2024-12-18,IKEA Furniture,-211,Savings,Shopping & Miscellaneous
+2024-12-19,Movie Night - AMC Theatres,-51,Checking,Entertainment
+2024-12-20,Investment Deposit,254,Savings,Savings
+2024-12-20,Sephora Makeup,-96,Checking,Shopping & Miscellaneous
+2024-12-21,Monthly Rent - Apartment,-1200,Checking,Rent
+2024-12-21,Salary Payment,3000,Checking,Salary
+2024-12-22,Target Shopping,-78,Checking,Shopping & Miscellaneous
+2024-12-22,Chipotle,-223,Savings,Groceries & Dining
+2024-12-23,Nike Shoes,-186,Checking,Shopping & Miscellaneous
+2024-12-24,Electricity Bill - PowerCo,-91,Savings,Utilities & Bills
+2024-12-25,Retirement Contribution - Vanguard,489,Checking,Savings
+2024-12-26,Walmart Groceries,-67,Savings,Groceries & Dining
+2024-12-27,Emergency Fund Contribution,482,Savings,Savings
+2024-12-27,Etsy Handmade Goods,-161,Checking,Shopping & Miscellaneous
+2024-12-27,Domino's Pizza,-169,Savings,Groceries & Dining
+2024-12-27,Heating Bill - GasCompany,-75,Savings,Utilities & Bills
+2024-12-28,Emergency Fund Contribution,246,Savings,Savings
+2024-12-28,Chipotle,-268,Checking,Groceries & Dining
+2024-12-29,Spotify Premium,-59,Checking,Entertainment
+2024-12-29,Starbucks Coffee,-139,Savings,Groceries & Dining
+2024-12-29,Sephora Makeup,-191,Checking,Shopping & Miscellaneous
+2024-12-29,Transfer to Savings Account,168,Checking,Savings
+2024-12-31,McDonald's,-94,Savings,Groceries & Dining
+2025-01-01,Starbucks Coffee,-224,Savings,Groceries & Dining
+2025-01-01,Amusement Park Ticket,-70,Checking,Entertainment
+2025-01-01,Internet Bill - Comcast,-34,Savings,Utilities & Bills
+2025-01-02,Investment Deposit,244,Checking,Savings
+2025-01-03,Starbucks Coffee,-249,Checking,Groceries & Dining
+2025-01-04,Domino's Pizza,-289,Savings,Groceries & Dining
+2025-01-04,Investment Deposit,143,Savings,Savings
+2025-01-04,Escape Room Experience,-50,Checking,Entertainment
+2025-01-05,Stock Purchase - Robinhood,358,Savings,Savings
+2025-01-05,McDonald's,-260,Savings,Groceries & Dining
+2025-01-06,Movie Night - AMC Theatres,-10,Savings,Entertainment
+2025-01-10,Amazon Purchase,-43,Checking,Shopping & Miscellaneous
+2025-01-10,Spotify Premium,-39,Savings,Entertainment
+2025-01-13,McDonald's,-291,Savings,Groceries & Dining
+2025-01-13,Walmart Household Supplies,-249,Checking,Shopping & Miscellaneous
+2025-01-13,Amazon Prime Video,-33,Savings,Entertainment
+2025-01-14,Amazon Purchase,-74,Checking,Shopping & Miscellaneous
+2025-01-14,HBO Max Subscription,-55,Savings,Entertainment
+2025-01-15,Internet Bill - Comcast,-54,Checking,Utilities & Bills
+2025-01-16,Internet Bill - Comcast,-75,Savings,Utilities & Bills
+2025-01-16,McDonald's,-260,Checking,Groceries & Dining
+2025-01-17,Zara Clothing,-54,Savings,Shopping & Miscellaneous
+2025-01-17,Emergency Fund Contribution,144,Savings,Savings
+2025-01-18,Stock Purchase - Robinhood,124,Checking,Savings
+2025-01-20,Salary Payment,3000,Checking,Salary
+2025-01-20,Water Bill - City Water,-23,Checking,Utilities & Bills
+2025-01-20,Monthly Rent - Apartment,-1200,Checking,Rent
+2025-01-21,Internet Bill - Comcast,-26,Savings,Utilities & Bills
+2025-01-22,Chipotle,-198,Checking,Groceries & Dining
+2025-01-23,HBO Max Subscription,-19,Checking,Entertainment
+2025-01-27,Escape Room Experience,-24,Checking,Entertainment
+2025-01-27,Sephora Makeup,-118,Checking,Shopping & Miscellaneous
+2025-01-27,Heating Bill - GasCompany,-69,Checking,Utilities & Bills
+2025-01-27,Mobile Plan - Verizon,-27,Checking,Utilities & Bills
+2025-01-28,Walmart Groceries,-151,Checking,Groceries & Dining
+2025-01-30,DoorDash,-134,Checking,Groceries & Dining
+2025-01-30,IKEA Furniture,-174,Checking,Shopping & Miscellaneous
+2025-02-01,Emergency Fund Contribution,435,Savings,Savings
+2025-02-01,HBO Max Subscription,-65,Savings,Entertainment
+2025-02-02,Internet Bill - Comcast,-63,Checking,Utilities & Bills
+2025-02-02,Domino's Pizza,-93,Checking,Groceries & Dining
+2025-02-02,Internet Bill - Comcast,-42,Checking,Utilities & Bills
+2025-02-02,IKEA Furniture,-84,Checking,Shopping & Miscellaneous
+2025-02-02,Sephora Makeup,-37,Checking,Shopping & Miscellaneous
+2025-02-03,Heating Bill - GasCompany,-40,Savings,Utilities & Bills
+2025-02-03,Whole Foods,-289,Savings,Groceries & Dining
+2025-02-04,Apple Store,-199,Savings,Shopping & Miscellaneous
+2025-02-04,Internet Bill - Comcast,-63,Savings,Utilities & Bills
+2025-02-04,Stock Purchase - Robinhood,396,Savings,Savings
+2025-02-05,Water Bill - City Water,-86,Checking,Utilities & Bills
+2025-02-05,Mobile Plan - Verizon,-39,Savings,Utilities & Bills
+2025-02-06,Amazon Prime Video,-13,Checking,Entertainment
+2025-02-06,Internet Bill - Comcast,-76,Checking,Utilities & Bills
+2025-02-06,Fine Dining Restaurant,-110,Savings,Groceries & Dining
+2025-02-07,Escape Room Experience,-23,Savings,Entertainment
+2025-02-08,Retirement Contribution - Vanguard,372,Checking,Savings
+2025-02-09,Spotify Premium,-64,Checking,Entertainment
+2025-02-09,Starbucks Coffee,-145,Savings,Groceries & Dining
+2025-02-10,Local Theatre Play,-49,Checking,Entertainment
+2025-02-10,Starbucks Coffee,-81,Checking,Groceries & Dining
+2025-02-11,Heating Bill - GasCompany,-76,Checking,Utilities & Bills
+2025-02-11,Mobile Plan - Verizon,-88,Checking,Utilities & Bills
+2025-02-11,Electricity Bill - PowerCo,-61,Savings,Utilities & Bills
+2025-02-12,Mobile Plan - Verizon,-35,Checking,Utilities & Bills
+2025-02-13,Electricity Bill - PowerCo,-90,Checking,Utilities & Bills
+2025-02-14,Electricity Bill - PowerCo,-42,Checking,Utilities & Bills
+2025-02-14,Zara Clothing,-192,Checking,Shopping & Miscellaneous
+2025-02-14,Zara Clothing,-139,Checking,Shopping & Miscellaneous
+2025-02-15,Local Farmers Market,-294,Checking,Groceries & Dining
+2025-02-15,Whole Foods,-149,Savings,Groceries & Dining
+2025-02-16,Emergency Fund Contribution,281,Savings,Savings
+2025-02-18,Electricity Bill - PowerCo,-60,Checking,Utilities & Bills
+2025-02-19,Salary Payment,3000,Checking,Salary
+2025-02-19,Local Farmers Market,-115,Checking,Groceries & Dining
+2025-02-19,Monthly Rent - Apartment,-1200,Checking,Rent
+2025-02-19,Water Bill - City Water,-94,Savings,Utilities & Bills
+2025-02-20,Investment Deposit,243,Checking,Savings
+2025-02-21,Emergency Fund Contribution,451,Checking,Savings
+2025-02-21,Electricity Bill - PowerCo,-52,Savings,Utilities & Bills
+2025-02-21,Investment Deposit,359,Savings,Savings
+2025-02-21,IKEA Furniture,-211,Savings,Shopping & Miscellaneous
+2025-02-22,Electricity Bill - PowerCo,-21,Checking,Utilities & Bills
+2025-02-23,Walmart Household Supplies,-157,Savings,Shopping & Miscellaneous
+2025-02-24,Local Farmers Market,-84,Checking,Groceries & Dining
+2025-02-25,IKEA Furniture,-44,Savings,Shopping & Miscellaneous
+2025-02-28,Zara Clothing,-34,Savings,Shopping & Miscellaneous
+2025-02-28,Apple Store,-73,Checking,Shopping & Miscellaneous

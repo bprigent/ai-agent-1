@@ -1,6 +1,7 @@
-from smolagents import CodeAgent, HfApiModel, DuckDuckGoSearchTool
-from tools import CalculatorTool, DateTimeTool, ExpenseRangeTool, FinalAnswerTool
+from smolagents import CodeAgent, HfApiModel, DuckDuckGoSearchTool, PythonInterpreterTool
+from tools import CalculatorTool, GetCurrentDate, FinalAnswerTool, GetCurrentTime, ExpenseListTool, ExpenseSummaryTool, BudgetInfoTool
 from config import get_api_token
+
 
 
 def main():
@@ -9,7 +10,7 @@ def main():
     
     # Initialize the model with the token
     model = HfApiModel(
-        max_tokens=2096, # Maximum number of tokens in the response
+        max_tokens=10000, # Maximum number of tokens in the response
         temperature=0.5, # Temperature for the response
         model_id='Qwen/Qwen2.5-Coder-32B-Instruct', # Model ID
         custom_role_conversions=None, # Custom role conversions
@@ -19,19 +20,31 @@ def main():
 
     # Get the tools for the models ready
     calculator_tool = CalculatorTool() # Calculator tool    
-    datetime_tool = DateTimeTool() # DateTime tool
-    expense_range_tool = ExpenseRangeTool() # Expense range tool
+    date_tool = GetCurrentDate() # DateTime tool
+    time_tool = GetCurrentTime() # DateTime tool
+    expense_list = ExpenseListTool() # Expense list tool
+    expense_summary = ExpenseSummaryTool() # Expense summary tool
     final_answer = FinalAnswerTool() # Final answer tool
     search_the_internet = DuckDuckGoSearchTool() # Search the internet tool
-    
-
+    python_interpreter = PythonInterpreterTool() # Python interpreter tool
+    budget_info = BudgetInfoTool() # Budget info tool
 
     # Initialize the agent, the agent is a code agent
     agent = CodeAgent(
-        tools=[calculator_tool, datetime_tool, expense_range_tool, final_answer, search_the_internet], # Tools
+        tools=[
+            calculator_tool, 
+            date_tool, 
+            time_tool,
+            expense_list, 
+            expense_summary, 
+            final_answer, 
+            search_the_internet, 
+            python_interpreter,
+            budget_info
+        ], # Tools
         model=model, # pass the model.
         add_base_tools=False, # we are not passing basic tools right now. In order to have better understanding of the agent abilities.
-        verbosity_level=1,  # Show detailed output of agent's thinking.
+        verbosity_level=2,  # How much detail to show in the output
         additional_authorized_imports=[] # Additional authorized imports modules can be added here.
     )
     

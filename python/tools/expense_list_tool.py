@@ -1,0 +1,62 @@
+from smolagents import Tool
+import pandas as pd
+import os
+
+class ExpenseListTool(Tool):
+    name = "get_list_of_expenses"
+    description = "Returns a list of all expenses between two dates without any summaries"
+    inputs = {
+        "start_date": {
+            "type": "string",
+            "description": "Start date in YYYY-MM-DD format",
+            "required": True
+        },
+        "end_date": {
+            "type": "string",
+            "description": "End date in YYYY-MM-DD format",
+            "required": True
+        }
+    }
+    output_type = "string"
+
+    def __init__(self, csv_path="./data_expenses.csv"):
+        super().__init__()
+        self.csv_path = csv_path
+        if not os.path.exists(csv_path):
+            raise FileNotFoundError(f"Expense data not found at {csv_path}")
+
+    def forward(self, start_date: str, end_date: str) -> str:
+        try:
+            # Read the CSV file
+            df = pd.read_csv(self.csv_path)
+            
+            # Convert dates to datetime
+            df['Date'] = pd.to_datetime(df['Date'])
+            start = pd.to_datetime(start_date)
+            end = pd.to_datetime(end_date)
+            
+            # Filter by date range
+            mask = (df['Date'] >= start) & (df['Date'] <= end)
+            filtered_df = df[mask]
+            
+            if filtered_df.empty:
+                return f"No expenses found between {start_date} and {end_date}"
+            
+            # Sort by date
+            filtered_df = filtered_df.sort_values('Date')
+            
+            # Build response with just the list of transactions
+            response = f"Transactions between {start_date} and {end_date}:\n\n"
+            
+            for _, row in filtered_df.iterrows():
+                amount = row['Amount']
+                sign = "+" if amount > 0 else ""
+                response += (f"{row['Date'].strftime('%Y-%m-%d')}: {sign}${amount:,.2f} - "
+                           f"{row['Expense Name']} "
+                           f"[{row['Budget Category']}] "
+                           f"({row['Account Number']})\n")
+            
+            return response
+
+        except Exception as e:
+            raise ValueError(f"Error listing expenses: {str(e)}") 
