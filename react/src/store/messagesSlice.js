@@ -3,7 +3,8 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 export const messageAgent = createAsyncThunk(
     'messages/messageAgent',
     async (message) => {
-        const response = await fetch('/api/message-agent', {
+        console.log('Sending message to agent:', message);
+        const response = await fetch('http://localhost:8000/api/message-agent', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -16,6 +17,7 @@ export const messageAgent = createAsyncThunk(
         }
         
         const data = await response.json();
+        console.log('Received response from agent:', data);
         return {
             id: Date.now(),
             author: 'assistant',
@@ -29,35 +31,52 @@ export const messageAgent = createAsyncThunk(
 const messagesSlice = createSlice({
     name: 'messages',
     initialState: {
-        messages: [],
+        messages: [
+            {
+                id: 1,
+                author: 'system',
+                content: 'Hello, how can I help you today?',
+                status: 'sent'
+            }
+        ],
         status: 'idle',
         error: null
     },
     reducers: {
         addMessage: (state, action) => {
+            console.log('Adding message:', action.payload);
             state.messages.push(action.payload);
         }
     },
     extraReducers: (builder) => {
         builder
             .addCase(messageAgent.pending, (state) => {
+                console.log('Agent request pending');
                 state.status = 'loading';
             })
             .addCase(messageAgent.fulfilled, (state, action) => {
+                console.log('Agent request fulfilled:', action.payload);
                 state.status = 'succeeded';
                 if (action.payload.status === 'success') {
                     state.messages.push(action.payload);
                 } else {
                     state.error = action.payload.response;
+                    state.messages.push({
+                        id: Date.now(),
+                        author: 'system',
+                        content: `Error: ${action.payload.response}`,
+                        status: 'error'
+                    });
                 }
             })
             .addCase(messageAgent.rejected, (state, action) => {
+                console.log('Agent request rejected:', action.error);
                 state.status = 'failed';
                 state.error = action.error.message;
                 state.messages.push({
                     id: Date.now(),
                     author: 'system',
-                    content: 'Error: Failed to get response from agent',
+                    content: `Error: ${action.error.message || 'Failed to get response from agent'}`,
                     status: 'error'
                 });
             });

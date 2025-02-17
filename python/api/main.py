@@ -109,12 +109,15 @@ async def get_budget():
 @app.post("/api/message-agent")
 async def message_agent(message: AgentMessage):
     try:
+        print(f"Received message: {message.message}")  # Add logging
         result = agent.run(message.message)
+        print(f"Agent response: {result}")  # Add logging
         return {
             "response": result,
             "status": "success"
         }
     except Exception as e:
+        print(f"Error in message_agent: {str(e)}")  # Add error logging
         return {
             "response": str(e),
             "status": "error"

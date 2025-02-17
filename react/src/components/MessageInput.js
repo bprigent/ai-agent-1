@@ -21,11 +21,13 @@ function MessageInput() {
         }));
 
         try {
-            await dispatch(messageAgent(message)).unwrap();
+            const result = await dispatch(messageAgent(message)).unwrap();
+            dispatch(addMessage(result));
+            console.log('Agent response:', result.content);
         } catch (error) {
             console.error('Failed to send message:', error);
         }
-
+        
         setMessage('');
     };
 

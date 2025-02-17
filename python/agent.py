@@ -18,14 +18,6 @@ def main():
         token=api_token  # Add the token here
     )
 
-    # This is another agent that can run web searches for the manager agent.
-    web_agent = CodeAgent(
-        tools=[DuckDuckGoSearchTool()],
-        model=model,
-        verbosity_level=0,
-        name="web_search_tool_agent",
-        description="This agent and tool runs web searches for you. Give it your query as an argument."
-    )
 
 
     # Get the tools for the models ready
@@ -37,6 +29,7 @@ def main():
     python_interpreter = PythonInterpreterTool() # Python interpreter tool
     budget_info = BudgetInfoTool() # Budget info tool
     user_input = UserInputTool() # User input tool
+    internet_search = DuckDuckGoSearchTool() # Internet search tool
 
 
 
@@ -50,9 +43,10 @@ def main():
             final_answer, 
             python_interpreter,
             budget_info,
-            user_input
+            user_input,
+            internet_search
         ], # Tools
-        managed_agents=[web_agent],
+        managed_agents=[],
         model=model, # pass the model.
         add_base_tools=False, # we are not passing basic tools right now. In order to have better understanding of the agent abilities.
         verbosity_level=2,  # How much detail to show in the output

@@ -1,17 +1,27 @@
 import { useSelector } from 'react-redux';
 import { selectMessages } from '../store/messagesSlice';
+import Message from './Message';
+import { Box } from '@mui/material';
 
 function MessageList() {
     const messages = useSelector(selectMessages);
+    const status = useSelector(state => state.messages.status);
+    const error = useSelector(state => state.messages.error);
+
+    console.log('Current messages:', messages);
+    console.log('Current status:', status);
+    console.log('Current error:', error);
 
     return (
-        <div>
+        <Box sx={{ flexGrow: 1, overflow: 'auto', p: 2 }}>
             {messages.map((message) => (
-                <div key={message.id}>
-                    <strong>{message.author}:</strong> {message.content}
-                </div>
+                <Message 
+                    key={message.id} 
+                    content={message.content}
+                    author={message.author}
+                />
             ))}
-        </div>
+        </Box>
     );
 }
 
