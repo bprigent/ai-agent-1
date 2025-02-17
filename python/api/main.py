@@ -43,3 +43,19 @@ async def get_expenses():
     return {
         "expenses": expenses
     }
+
+@app.get("/api/fetch-budget")
+async def get_budget():
+    # Get the correct path to the CSV file
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    csv_path = os.path.join(os.path.dirname(current_dir), "data_budget.csv")
+    
+    # Read the CSV file
+    df = pd.read_csv(csv_path)
+    
+    # Convert to list of dictionaries
+    budget = df.to_dict('records')
+    
+    return {
+        "budget": budget
+    }
