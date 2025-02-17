@@ -3,6 +3,9 @@ from fastapi.middleware.cors import CORSMiddleware
 import pandas as pd
 from pydantic import BaseModel
 import os
+from agent import CodeAgent, HfApiModel, DuckDuckGoSearchTool # Import the agent components
+from tools import GetCurrentDate, FinalAnswerTool, GetCurrentTime, ExpenseListTool, ExpenseSummaryTool, BudgetInfoTool, UserInputTool
+from config import get_api_token
 
 app = FastAPI()
 
@@ -22,6 +25,49 @@ class Expense(BaseModel):
     account_number: str
     budget_category: str
 
+class AgentMessage(BaseModel):
+    message: str
+
+# Initialize agent (moved outside endpoint for persistence)
+api_token = get_api_token()
+model = HfApiModel(
+    max_tokens=10000,
+    temperature=0.5,
+    model_id='Qwen/Qwen2.5-Coder-32B-Instruct',
+    custom_role_conversions=None,
+    token=api_token
+)
+
+# Initialize tools
+date_tool = GetCurrentDate()
+time_tool = GetCurrentTime()
+expense_list = ExpenseListTool()
+expense_summary = ExpenseSummaryTool()
+final_answer = FinalAnswerTool()
+budget_info = BudgetInfoTool()
+user_input = UserInputTool()
+web_search = DuckDuckGoSearchTool()
+
+# Initialize the agent
+agent = CodeAgent(
+    tools=[
+        date_tool,
+        time_tool,
+        expense_list,
+        expense_summary,
+        final_answer,
+        budget_info,
+        user_input,
+        web_search
+    ],
+    model=model,
+    add_base_tools=False,
+    verbosity_level=2,
+)
+
+########################################################
+# API ENDPOINTS
+########################################################
 @app.get("/api/fetch-all-expenses")
 async def get_expenses():
     # Get the correct path to the CSV file
@@ -59,3 +105,17 @@ async def get_budget():
     return {
         "budget": budget
     }
+
+@app.post("/api/message-agent")
+async def message_agent(message: AgentMessage):
+    try:
+        result = agent.run(message.message)
+        return {
+            "response": result,
+            "status": "success"
+        }
+    except Exception as e:
+        return {
+            "response": str(e),
+            "status": "error"
+        }
