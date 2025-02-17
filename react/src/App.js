@@ -4,6 +4,8 @@ import Home from './pages/Home';
 import NotFound from './pages/NotFound';
 import Chat from './pages/Chat';
 import Navigation from './components/Navigation';
+import store from './store/store';
+import { Provider } from 'react-redux';
 
 const theme = createTheme({
   palette: {
@@ -53,9 +55,10 @@ const theme = createTheme({
 
 function App() {
   return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
-      <Box sx={{ display: 'flex' }}>
+    <Provider store={store}>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        <Box sx={{ display: 'flex' }}>
         <Navigation />
         <Box
           component="main"
@@ -68,9 +71,10 @@ function App() {
             <Route path="/chat" element={<Chat />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
+          </Box>
         </Box>
-      </Box>
-    </ThemeProvider>
+      </ThemeProvider>
+    </Provider>
   );
 }
 

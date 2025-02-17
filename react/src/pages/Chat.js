@@ -1,9 +1,13 @@
 import { Box, TextField, Button } from '@mui/material';
 import Header from '../components/Header';
 import { useState } from 'react';
+import MessageList from '../components/MessageList';
+import { useDispatch } from 'react-redux';
+import { addMessage } from '../store/messagesSlice';
 
 function Chat() {
     const [message, setMessage] = useState('');
+    const dispatch = useDispatch();
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -11,6 +15,15 @@ function Chat() {
         
         // Handle message submission here
         console.log('Message submitted:', message);
+
+        
+        dispatch(addMessage({
+            id: Date.now(),
+            author: 'user',
+            content: message,
+            status: 'sent'
+        }));
+
         setMessage('');
     };
 
@@ -35,6 +48,7 @@ function Chat() {
                 }}
             >
                 {/* Chat messages will go here */}
+                <MessageList />
             </Box>
 
             {/* Footer with input */}
