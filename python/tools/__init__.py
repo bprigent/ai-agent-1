@@ -5,6 +5,7 @@ from .final_answer import FinalAnswerTool
 from .get_current_time import GetCurrentTime
 from .budget_info_tool import BudgetInfoTool
 from .user_input_tool import UserInputTool
+from .compute_available_cash import ComputeAvailableCash
 
 __all__ = [
     'GetCurrentDate', 
@@ -13,5 +14,6 @@ __all__ = [
     'FinalAnswerTool', 
     'GetCurrentTime', 
     'BudgetInfoTool', 
-    'UserInputTool'
+    'UserInputTool',
+    'ComputeAvailableCash'
 ]

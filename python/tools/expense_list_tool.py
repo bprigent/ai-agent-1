@@ -44,19 +44,8 @@ class ExpenseListTool(Tool):
             
             # Sort by date
             filtered_df = filtered_df.sort_values('Date')
-            
-            # Build response with just the list of transactions
-            response = f"Transactions between {start_date} and {end_date}:\n\n"
-            
-            for _, row in filtered_df.iterrows():
-                amount = row['Amount']
-                sign = "+" if amount > 0 else ""
-                response += (f"{row['Date'].strftime('%Y-%m-%d')}: {sign}${amount:,.2f} - "
-                           f"{row['Expense Name']} "
-                           f"[{row['Budget Category']}] "
-                           f"({row['Account Number']})\n")
-            
-            return response
+
+            return filtered_df.to_string()
 
         except Exception as e:
             raise ValueError(f"Error listing expenses: {str(e)}") 

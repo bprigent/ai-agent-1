@@ -4,7 +4,7 @@ import pandas as pd
 from pydantic import BaseModel
 import os
 from agent import CodeAgent, HfApiModel, DuckDuckGoSearchTool # Import the agent components
-from tools import GetCurrentDate, FinalAnswerTool, GetCurrentTime, ExpenseListTool, ExpenseSummaryTool, BudgetInfoTool, UserInputTool
+from tools import GetCurrentDate, FinalAnswerTool, GetCurrentTime, ExpenseListTool, ExpenseSummaryTool, BudgetInfoTool, UserInputTool, ComputeAvailableCash
 from config import get_api_token
 
 app = FastAPI()
@@ -47,7 +47,7 @@ final_answer = FinalAnswerTool()
 budget_info = BudgetInfoTool()
 user_input = UserInputTool()
 web_search = DuckDuckGoSearchTool()
-
+compute_available_cash = ComputeAvailableCash()
 # Initialize the agent
 agent = CodeAgent(
     tools=[
@@ -58,7 +58,8 @@ agent = CodeAgent(
         final_answer,
         budget_info,
         user_input,
-        web_search
+        web_search,
+        compute_available_cash
     ],
     model=model,
     add_base_tools=False,
@@ -110,7 +111,10 @@ async def get_budget():
 async def message_agent(message: AgentMessage):
     try:
         print(f"Received message: {message.message}")  # Add logging
-        result = agent.run(message.message)
+        result = agent.run(
+            message.message, 
+            reset=False # This is to prevent the agent from resetting the memory. It will remember the previous messages.
+        )
         print(f"Agent response: {result}")  # Add logging
         return {
             "response": result,
