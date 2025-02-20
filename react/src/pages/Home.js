@@ -35,7 +35,7 @@ function Home() {
                 }}
             >
                 <Typography variant="h2" component="h1" gutterBottom>
-                    Welcome to Origin Agent
+                    Welcome to Your Money Agent
                 </Typography>
                 <Button variant="contained" color="primary" onClick={handleClick}>
                     Chat now
