@@ -18,6 +18,10 @@ class BudgetInfoTool(Tool):
         try:
             # Read the CSV file
             df = pd.read_csv(self.csv_path)
-            return df.to_string()   
+            title = "Budget Categories and Allocated Amounts for this user:\n"
+            result = ""
+            for _, row in df.iterrows():
+                result += f"Allocated amount for the Budget Category called {row['Budget Category']} is {row['Budget Amount']}.\n"
+            return title + result
         except Exception as e:
-            raise ValueError(f"Error getting budget info: {str(e)}")    
+            raise ValueError(f"There was an error getting the budget info: {str(e)}")    

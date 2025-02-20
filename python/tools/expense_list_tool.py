@@ -40,12 +40,16 @@ class ExpenseListTool(Tool):
             filtered_df = df[mask]
             
             if filtered_df.empty:
-                return f"No expenses found between {start_date} and {end_date}"
+                return f"No expenses were found between between {start_date} and {end_date}. The user did not spend any money in this time period."
             
             # Sort by date
             filtered_df = filtered_df.sort_values('Date')
 
-            return filtered_df.to_string()
+            result = ""
+            for _, row in filtered_df.iterrows():
+                result += f"Date: {row['Date']}, Expense Name: {row['Expense Name']}, Amount: {abs(row['Amount']):,.2f}, Account Number: {row['Account Number']}, Budget Category: {row['Budget Category']}.\n"
+
+            return result
 
         except Exception as e:
             raise ValueError(f"Error listing expenses: {str(e)}") 

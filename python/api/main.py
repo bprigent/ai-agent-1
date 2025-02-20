@@ -28,7 +28,7 @@ class Expense(BaseModel):
 class AgentMessage(BaseModel):
     message: str
 
-# Initialize agent (moved outside endpoint for persistence)
+# Initialize agent
 api_token = get_api_token()
 model = HfApiModel(
     max_tokens=10000,
@@ -49,6 +49,7 @@ user_input = UserInputTool()
 web_search = DuckDuckGoSearchTool()
 compute_available_cash = ComputeAvailableCash()
 user_location = UserLocationTool()
+
 # Initialize the agent
 agent = CodeAgent(
     tools=[
@@ -65,8 +66,14 @@ agent = CodeAgent(
     ],
     model=model,
     add_base_tools=False,
-    verbosity_level=2,
+    verbosity_level=2
 )
+additional_instructions = '''
+ You are an expert in all things finance. You are able to answer questions about the user's finances and help them with their finances.
+ You answer is short and concise sentences, for example, you never simply answer with a number, you always explain what the number is and what it means.
+'''
+agent.prompt_templates["system_prompt"] = agent.prompt_templates["system_prompt"] + additional_instructions
+
 
 ########################################################
 # API ENDPOINTS

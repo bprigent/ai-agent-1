@@ -13,4 +13,4 @@ class UserLocationTool(Tool):
             data = response.json()
             return data["city"]
         except Exception as e:
-            return f"Error getting user location: {str(e)}"
+            return f"Error getting user location: {str(e)}. It looks like https://ipinfo.io/ did not return a valid response."
