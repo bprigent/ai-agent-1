@@ -4,7 +4,7 @@ import os
 
 class ExpenseListTool(Tool):
     name = "get_list_of_expenses"
-    description = "This is a tool that returns the raw list of all expenses between two dates, it does not provide summaries"
+    description = "This tool returns the raw list of expenses between two dates, it does not provide summaries"
     inputs = {
         "start_date": {
             "type": "string",

@@ -3,8 +3,8 @@ import pandas as pd
 import os
 
 class ExpenseSummaryTool(Tool):
-    name = "get_summary_of_expenses"
-    description = "This is a tool that returns a summary of expenses: the sum of all expenses grouped by budget category, separated into costs and revenue"
+    name = "get_sum_of_expenses"
+    description = "This tool returns the sum (or total) of expenses between two dates, this will be grouped by budget category, separated into costs and revenue"
     inputs = {
         "start_date": {
             "type": "string",

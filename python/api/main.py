@@ -4,7 +4,7 @@ import pandas as pd
 from pydantic import BaseModel
 import os
 from agent import CodeAgent, HfApiModel, DuckDuckGoSearchTool # Import the agent components
-from tools import GetCurrentDate, FinalAnswerTool, GetCurrentTime, ExpenseListTool, ExpenseSummaryTool, BudgetInfoTool, UserInputTool, ComputeAvailableCash
+from tools import GetCurrentDate, FinalAnswerTool, GetCurrentTime, ExpenseListTool, ExpenseSummaryTool, BudgetInfoTool, UserInputTool, ComputeAvailableCash, UserLocationTool
 from config import get_api_token
 
 app = FastAPI()
@@ -48,6 +48,7 @@ budget_info = BudgetInfoTool()
 user_input = UserInputTool()
 web_search = DuckDuckGoSearchTool()
 compute_available_cash = ComputeAvailableCash()
+user_location = UserLocationTool()
 # Initialize the agent
 agent = CodeAgent(
     tools=[
@@ -59,7 +60,8 @@ agent = CodeAgent(
         budget_info,
         user_input,
         web_search,
-        compute_available_cash
+        compute_available_cash,
+        user_location
     ],
     model=model,
     add_base_tools=False,
