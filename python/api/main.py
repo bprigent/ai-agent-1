@@ -78,6 +78,27 @@ agent.prompt_templates["system_prompt"] = agent.prompt_templates["system_prompt"
 ########################################################
 # API ENDPOINTS
 ########################################################
+@app.post("/api/message-agent")
+async def message_agent(message: AgentMessage):
+    try:
+        print(f"Received message: {message.message}")  # Add logging
+        result = agent.run(
+            message.message, 
+            reset=False # This is to prevent the agent from resetting the memory. It will remember the previous messages.
+        )
+        print(f"Agent response: {result}")  # Add logging
+        return {
+            "response": result,
+            "status": "success"
+        }
+    except Exception as e:
+        print(f"Error in message_agent: {str(e)}")  # Add error logging
+        return {
+            "response": str(e),
+            "status": "error"
+        }
+    
+
 @app.get("/api/fetch-all-expenses")
 async def get_expenses():
     # Get the correct path to the CSV file
@@ -115,23 +136,3 @@ async def get_budget():
     return {
         "budget": budget
     }
-
-@app.post("/api/message-agent")
-async def message_agent(message: AgentMessage):
-    try:
-        print(f"Received message: {message.message}")  # Add logging
-        result = agent.run(
-            message.message, 
-            reset=False # This is to prevent the agent from resetting the memory. It will remember the previous messages.
-        )
-        print(f"Agent response: {result}")  # Add logging
-        return {
-            "response": result,
-            "status": "success"
-        }
-    except Exception as e:
-        print(f"Error in message_agent: {str(e)}")  # Add error logging
-        return {
-            "response": str(e),
-            "status": "error"
-        }
