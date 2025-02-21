@@ -21,7 +21,8 @@ app.add_middleware(
 )
 
 register()
-SmolagentsInstrumentor().instrument()
+SmolagentsInstrumentor().instrument() # go to http://0.0.0.0:6006/ to see the logs
+
 
 class Expense(BaseModel):
     date: str

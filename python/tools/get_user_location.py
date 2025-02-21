@@ -11,13 +11,13 @@ class UserLocationTool(Tool):
         self.dependencies = ["requests"]
     
     def forward(self) -> str:
-        # Import requests inside the function as per requirements
         import requests
         
         try:
             response = requests.get("https://ipinfo.io/")
             data = response.json()
-            return data["city"]
+            return f"According to your IP address, the user's location is {data['city']}, {data['region']}, {data['country']}."
+        
         except Exception as e:
             return f"Error getting user location: {str(e)}. It looks like https://ipinfo.io/ did not return a valid response."
         
