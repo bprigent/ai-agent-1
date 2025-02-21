@@ -6,6 +6,8 @@ import os
 from agent import CodeAgent, HfApiModel, DuckDuckGoSearchTool # Import the agent components
 from tools import GetCurrentDate, FinalAnswerTool, GetCurrentTime, ExpenseListTool, ExpenseSummaryTool, BudgetInfoTool, UserInputTool, ComputeAvailableCash, UserLocationTool
 from config import get_api_token
+from phoenix.otel import register
+from openinference.instrumentation.smolagents import SmolagentsInstrumentor 
 
 app = FastAPI()
 
@@ -17,6 +19,9 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+register()
+SmolagentsInstrumentor().instrument()
 
 class Expense(BaseModel):
     date: str

@@ -1,6 +1,5 @@
 from smolagents import Tool
-from datetime import datetime
-import pytz
+
 
 class GetCurrentDate(Tool):
     name = "get_current_date"
@@ -14,7 +13,15 @@ class GetCurrentDate(Tool):
     }
     output_type = "string"
 
+    def __init__(self, timezone: str = "UTC"):
+        super().__init__()
+        self.dependencies = ["pytz", "datetime"]
+        self.timezone = timezone
+
     def forward(self, timezone: str) -> str:
+        from datetime import datetime
+        import pytz
+
         try:
             tz = pytz.timezone(timezone)
             current_date = datetime.now(tz)
