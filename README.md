@@ -1,5 +1,7 @@
 # AI Agent Development Repository
-Visit my [portfolio](www.bprigent.com)
+Visit my [portfolio](https://www.bprigent.com)
+
+PROJECT STATUS: COMPLETE (as of 03/02/2025)
 
 This repository contains the implementation of AI agents following the Hugging Face [Building AI Agents course](https://huggingface.co/learn/agents-course/unit0/introduction). The project combines a Python backend for AI agent logic and a React frontend for user interaction. The goal of this project was to build a suite of tools both specific to the user need and also tools that any AI agent can use.
 
@@ -33,23 +35,33 @@ The `push_tool_to_hub.py` file is the way to push the tools to the Hugging Face 
 
 ### React Frontend
 #### Core Pages
+I created 5 main pages. The goal of building all these useless pages was to practice using react router.
 - Home: Entry point and overview
 - Budget: Financial management interface
-- Additional feature-specific pages
-
-#### State Management
-Redux store implementation with the following slices:
-- Agent slice: Manages AI agent state and interactions
-- User slice: Handles user preferences and authentication
-- Message slice: Controls chat history and message flow
+- Expenses: Expense management interface
+- Chat: Chat interface, this is where the agent is used.
+- 404: 404 page (not found)
 
 #### Components
+In order to make my code more manageable, I created a components folder where I placed the reusable components. 
 - `Navigation.js`: Main navigation structure
 - `Header.js`: Application header with key controls
 - Message Components:
   - `MessageList.js`: Displays conversation history
   - `MessageInput.js`: User input interface
   - `Message.js`: Individual message rendering
+- Table Components:
+  - `TableRows.js`: Reusable table rows component
+  - `TableHeaders.js`: Reusable table headers component
+
+#### Styling
+I used the Material-UI library to style the app. You can see the theme in `App.js`.
+
+#### Data management in the frontend
+I used the Redux store to manage the data in the frontend. You can find the slices in the `store` folder. You've got 3 slices:
+- Agent slice: Manages the messages between the AI and the user.
+- Expenses slice: Manages the expenses data. The main feature here is to fetch the expenses data from the backend and to display it in the `Expenses` page.
+- Budget slice: Manages the budget data. Similarly, the feature is to fetch the budget data from the backend and to display it in the `Budget` page.
 
 ## Usage Examples
 ### Example 1: Financial Analysis
