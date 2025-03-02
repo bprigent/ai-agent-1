@@ -5,7 +5,7 @@ This repository contains the implementation of AI agents following the Hugging F
 
 ## Project set up
 1. Clone the repository
-2. Create a Venv. Immportant: you need to use python 3.10 because of smolagents.
+2. Create a Venv. Important: you need to use python 3.10 because of smolagents.
 3. Install the dependencies from the requirements.txt file.
 4. Set up the react project and install the dependencies.
 5. To run the project, you will need 3 terminals open. Terminal 1 will run the react project (cd react, npm start). Terminal 2 will run the python project (cd python, source venv/bin/activate, python run.py). Terminal 3 will run Phoenix to inspect the agent's actions (cd python, source venv/bin/activate, python -m phoenix.server.main serve)
@@ -15,22 +15,21 @@ This repository contains the implementation of AI agents following the Hugging F
 ### Python Backend
 #### API Layer (`api/main.py`)
 - FastAPI implementation handling HTTP requests
-- Endpoints for agent interactions and data management
-- WebSocket support for real-time communication
+- We have 3 main endpoints:
+    - `/api/message-agent`: for agent interactions
+    - `/api/fetch-all-expenses`: to get the expenses data
+    - `/api/fetch-budget`: to get the budget data
 
-#### Agent Components
-- `agent.py`: Core agent implementation using the ReAct (Reasoning and Acting) framework
-- `config.py`: Configuration settings for the agent, including model parameters and API keys
-- CSV files used as a lightweight database for development purposes
+In the `api/main.py` file, you can find the implementation of the agent and the tools. `model = HfApiModel()` is the model used to generate the agent's response. `agent = CodeAgent()` is the agent that is used to generate the response.
 
 #### Tools Directory
-Custom tools and utilities for the agent:
-- `final_answer.py`: Processes and formats agent's final responses
-- Additional specialized tools for specific agent capabilities
+I built 8 custom tools for this agent. They are quite simple and all use the class tool system. 
+- Tools like `GetCurrentDateAndTime` or `UserLocationTool` are general purpose tools that can be used by any agent. 
+- The `FinalAnswerTool` is here to make sure the agent always answers the user.
+- Tools like `BudgetInfoTool` or `ExpenseListTool` are vertical specific tools that are used to answer questions about the user's budget or expenses.
 
-#### Hugging Face Integration
-- Push to Hub functionality for model sharing and version control
-- Easy deployment and collaboration through Hugging Face's infrastructure
+#### Hugging Face Hub Integration
+The `push_tool_to_hub.py` file is the way to push the tools to the Hugging Face Hub. I have made all the tools public and easily accessible through the Hub.
 
 ### React Frontend
 #### Core Pages

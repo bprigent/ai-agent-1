@@ -3,9 +3,9 @@ from fastapi.middleware.cors import CORSMiddleware
 import pandas as pd
 from pydantic import BaseModel
 import os
-from agent import CodeAgent, HfApiModel, DuckDuckGoSearchTool # Import the agent components
+from agent import CodeAgent, HfApiModel, DuckDuckGoSearchTool
 from tools import (
-    GetCurrentDateAndTime,  # Changed from GetCurrentDate and GetCurrentTime
+    GetCurrentDateAndTime,
     FinalAnswerTool,
     ExpenseListTool,
     ExpenseSummaryTool,
@@ -32,16 +32,6 @@ app.add_middleware(
 register()
 SmolagentsInstrumentor().instrument() # go to http://0.0.0.0:6006/ to see the logs
 
-
-class Expense(BaseModel):
-    date: str
-    expense_name: str
-    amount: float
-    account_number: str
-    budget_category: str
-
-class AgentMessage(BaseModel):
-    message: str
 
 # Initialize agent
 api_token = get_api_token()
@@ -91,6 +81,9 @@ agent.prompt_templates["system_prompt"] = agent.prompt_templates["system_prompt"
 ########################################################
 # API ENDPOINTS
 ########################################################
+class AgentMessage(BaseModel):
+    message: str
+
 @app.post("/api/message-agent")
 async def message_agent(message: AgentMessage):
     try:
@@ -110,7 +103,6 @@ async def message_agent(message: AgentMessage):
             "response": str(e),
             "status": "error"
         }
-    
 
 @app.get("/api/fetch-all-expenses")
 async def get_expenses():
